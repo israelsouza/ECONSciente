@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* INICIO DO HEADER */
+
+header{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+header div img{
+    width: 160px;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+header li{
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+header li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+li > svg{
+    width: 25px;
+}
+
+/* FINAL DO HEADER */
+
+/* INICIO DA SESSAO 1 */
