@@ -1,0 +1,11 @@
+#carrosel{
+    display: flex;
+    justify-content: center;
+}
+
+.flv{
+    margin: 100px;
+    width: 400px;
+    height: 100px;
+    background-color: brown;
+}

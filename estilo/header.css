@@ -3,9 +3,8 @@
     padding: 0;
 }
 
-/* INICIO DO HEADER */
-
 header{
+    z-index: 1;
     width: 100%;
     position: fixed;
     display: flex;
@@ -38,7 +37,3 @@ header li a {
 li > svg{
     width: 25px;
 }
-
-/* FINAL DO HEADER */
-
-/* INICIO DA SESSAO 1 */
