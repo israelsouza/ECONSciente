@@ -8,7 +8,7 @@
 
 .intro-info{
     position: relative;
-    top: 45%;
+    top: 32%;
     color: white;
     font-size: 1.5em;
     margin-left: 3%;
@@ -16,10 +16,11 @@
 }
 
 h1, p{
-    margin-bottom: 70px;
+    margin-bottom: 50px;
+    max-width: 800px;
 }
 
-.intro-info button{
+.intro-info > button{
     width: 250px;
     height: 60px;
     border-radius: 7%;
@@ -27,7 +28,7 @@ h1, p{
     transition: .8s;
 }
 
-button:hover{
+.intro-info > button:hover{
     cursor: pointer;
     transition: .8s;
     background-color: yellow;

@@ -1,0 +1,9 @@
+.rodape{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rodape li{
+    list-style: none;
+}
