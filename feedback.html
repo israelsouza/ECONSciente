@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feedback</title>
     <link rel="stylesheet" href="estilo/header.css">
+    <link rel="stylesheet" href="estilo/rodape.css">
+    <link rel="stylesheet" href="estilo/feedback.css">
 </head>
 <body>
     
@@ -29,6 +31,70 @@
         </div>
         
     </header>
+
+    <main>
+
+        <h1>Deixe a sua avaliação sobre o site</h1>
+
+        <form>
+
+            <div>
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+
+            <div>
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+
+            <div>
+                <label for="nascimento">Data de Nascimento</label>
+                <input type="date" name="nascimento" id="nascimento" min="1900-01-01" max="2024-01-01">
+            </div>
+
+            <div>
+                <textarea name="mensagem" id="mensagem" placeholder="Digite a sua mensagem aqui" required></textarea>
+            </div>
+
+            <div>
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar formulário</button>
+            </div>
+            
+        </form>
+
+    </main>
+
+     <footer class="rodape">
+        &reg; Direitos reservados
+        
+        <div>
+            <ul>
+                <li class="fonte-bold">AUTORES</li>
+                <li>Israel</li>
+                <li>Carlos</li>
+                <li>Matheus</li>
+                <li>Raquel</li>
+                <li>Luciano</li>
+            </ul>
+        </div>
+
+        <div>
+            <ul>
+                <li class="fonte-bold">ARTIGOS</li>
+                <li>01</li>
+                <li>02</li>
+                <li>03</li>
+                <li>04</li>
+                <li>05</li>
+            </ul>
+        </div>
+
+       
+
+    </footer> 
+
 
 </body>
 </html>
