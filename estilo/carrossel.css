@@ -1,13 +1,14 @@
 #carrossel{
     display: flex;
     justify-content: center;
+    background-color: #d81111c4;
 }
 
 .flv{
     margin: 100px;
     width: 400px;
     height: 300px;
-    background-color: brown;
+    background-color: white;
 }
 
 .flv-image{

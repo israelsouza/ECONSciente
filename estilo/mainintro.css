@@ -21,10 +21,10 @@ h1, p{
 }
 
 .intro-info > button{
-    width: 250px;
+    width: 300px;
     height: 60px;
-    border-radius: 7%;
-    border: 5px solid yellow;
+    background-color: yellow;
+    border: 0;
     transition: .8s;
 }
 
@@ -32,4 +32,7 @@ h1, p{
     cursor: pointer;
     transition: .8s;
     background-color: yellow;
+    color: white;
+    text-shadow: 2px 2px 1px black;
+    font-size: 75%;
 }

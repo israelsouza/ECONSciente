@@ -2,7 +2,9 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #ccc;
+    background-color: #49780a;
+    color: white;
+    padding: 20px;
 }
 
 .rodape li{
