@@ -23,16 +23,15 @@ h1, p{
 .intro-info > button{
     width: 300px;
     height: 60px;
-    background-color: yellow;
+    background-color: rgb(207, 233, 188);
     border: 0;
     transition: .8s;
+    
 }
 
 .intro-info > button:hover{
     cursor: pointer;
     transition: .8s;
-    background-color: yellow;
-    color: white;
-    text-shadow: 2px 2px 1px black;
-    font-size: 75%;
+    letter-spacing: 2px;
+    font-size: 20px;
 }

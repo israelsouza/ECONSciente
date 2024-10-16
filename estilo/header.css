@@ -10,12 +10,11 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #e8c847;
-
+    background-color: #fff281;
 }
 
 header div img{
-    width: 160px;
+    width: 130px;
     margin-left: 50%;
 }
 
