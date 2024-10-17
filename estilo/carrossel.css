@@ -1,10 +1,10 @@
-#carrossel{
+#carrossel {
     display: flex;
     justify-content: center;
 
 }
 
-.flv{
+.flv {
     padding: 80px 0;
     width: 400px;
     height: 300px;
@@ -12,32 +12,32 @@
     text-align: center;
 }
 
-.flv-image{
+.flv-image {
     width: 90%;
     height: 220px;
     margin: 0 auto;
     margin-bottom: 20px;
 }
 
-.flv h3{
+.flv h3 {
     padding-bottom: 15px;
 }
 
-.maca{
+.maca {
     background-image: url(../img/Maça.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-.pera{
+.pera {
     background-image: url(../img/Pera.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-.banana{
+.banana {
     background-image: url(../img/Banana.png);
     background-position: center;
     background-size: contain;
@@ -46,10 +46,10 @@
 
 
 
-.esq{
+.esq {
     margin-left: 10px;
-position: relative;
-top: 50%;
+    position: relative;
+    top: 50%;
     background-image: url(../img/arrow-arrow-left.png);
     width: 50px;
     height: 50px;
@@ -60,7 +60,7 @@ top: 50%;
     background-color: unset;
 }
 
-.dir{
+.dir {
     background-color: unset;
     margin-right: 10px;
     position: relative;
@@ -74,18 +74,18 @@ top: 50%;
     border: 0;
 }
 
-#carrossel button:hover{
+#carrossel button:hover {
     cursor: pointer;
 }
 
-.fruta{
+.fruta {
     display: block;
 }
 
-.legume{
-    display:none;
+.legume {
+    display: none;
 }
 
-.verdura{
-    display:none;
+.verdura {
+    display: none;
 }

@@ -1,36 +1,36 @@
-main{
+main {
     padding-top: 8%;
     padding-bottom: 2%;
     text-align: center;
 }
 
-form{
+form {
     border-radius: 25px;
 
     max-width: 800px;
     margin: 0 auto;
 }
 
-form > div{
+form>div {
     margin: 10px 0;
     padding-top: 3%;
 }
 
-form label{
+form label {
     margin-right: 20px;
 }
 
-form input{
+form input {
     padding: 2px 5px;
     border: 1px solid black;
     height: 25px;
 }
 
-form input:focus{
+form input:focus {
     outline: none;
 }
 
-form textarea{
+form textarea {
     border: 2px solid black;
     width: 500px;
     height: 200px;
@@ -39,15 +39,15 @@ form textarea{
     font-size: 20px;
 }
 
-form textarea:focus{
+form textarea:focus {
     outline: none;
 }
 
-form button{
+form button {
     width: 200px;
     padding: 10px;
 }
 
-form button:hover{
+form button:hover {
     cursor: pointer;
 }
