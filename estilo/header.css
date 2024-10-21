@@ -11,11 +11,12 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #fff281;
+    padding: 15px 0;
 }
 
 header div img {
-    width: 130px;
-    margin-left: 50%;
+    width: 200px;
+    margin-left: 20%;
 }
 
 header ul {
@@ -36,6 +37,7 @@ header li a {
 
 
 li>svg {
-    width: 50px;
     margin: 0 70px 0 50px;
+    width: 30px;
+    height: auto;
 }
