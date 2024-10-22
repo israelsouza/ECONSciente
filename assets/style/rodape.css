@@ -1,0 +1,13 @@
+.rodape {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: green;
+    color: white;
+    padding: 20px;
+}
+
+.rodape li {
+    list-style: none;
+    padding: 2px 0;
+}

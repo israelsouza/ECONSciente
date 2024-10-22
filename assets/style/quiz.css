@@ -1,0 +1,53 @@
+.display_block{
+    display: block;
+}
+
+.display_none{
+    display: none;
+}
+
+main {
+    padding-top: 200px;
+    background-color: rgba(171, 231, 160, 0.737);
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-bottom: 80px;
+    box-shadow: 10px 10px 10px 10px rgb(0 0 0 / 20%);
+}
+
+.txt-center {
+    text-align: center;
+}
+
+h1 {
+    padding: 0px 0 20px 0;
+}
+
+.img01 {
+    background-image: url('../img/alface.jpg');
+    background-color: aqua;
+    margin: 0 auto;
+    background-position: center;
+    padding: 20px 0;
+    width: 1000px;
+    height: 200px;
+}
+
+
+h2 {
+    padding: 20px 0 40px 0;
+}
+
+main div p {
+    padding: 5px 0;
+    font-size: 20px;
+}
+
+.alternativas {
+    padding-bottom: 80px;
+}
+
+input {
+    margin-right: 25px;
+}
