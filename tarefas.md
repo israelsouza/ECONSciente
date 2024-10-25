@@ -21,9 +21,10 @@
 - fundo pros artigos
 
 ### Quiz
-- Tela de resultado
-- Calculo de resultado
-- Tela inicial para levar aos tipos de quiz
 - Botão para retornar questão anterior
+- Calculo de resultado
+- Tela de resultado
+- Tela inicial para levar aos tipos de quiz
+- Alternativa (ref card #001)
 
 ### Catálogo
