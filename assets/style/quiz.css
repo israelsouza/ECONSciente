@@ -7,7 +7,7 @@
 }
 
 main {
-    padding-top: 200px;
+    padding-top: 120px;
     background-color: rgba(171, 231, 160, 0.737);
     max-width: 1280px;
     margin: 0 auto;
@@ -24,18 +24,64 @@ h1 {
     padding: 0px 0 20px 0;
 }
 
-.img01 {
-    background-image: url('../img/alface.jpg');
-    background-color: aqua;
+.imagem-questao {
     margin: 0 auto;
-    background-position: center;
     padding: 20px 0;
     width: 1000px;
     height: 200px;
 }
 
+#questao01 .imagem-questao{
+    background-image: url('../img/alface.jpg');
+    background-position: center;
+}
 
-h2 {
+#questao02 .imagem-questao{
+    background-image: url('../img/alface.jpg');
+    background-position: center;
+}
+
+#questao03 .imagem-questao{
+    background-image: url('../img/alface.jpg');
+    background-position: center;
+}
+
+#questao04 .imagem-questao{
+    background-image: url('../img/alface.jpg');
+    background-position: center;
+}
+
+#questao05 .imagem-questao{
+    background-image: url('../img/alface.jpg');
+    background-position: center;
+}
+
+#questao06 .imagem-questao{
+    background-image: url('../img/alface.jpg');
+    background-position: center;
+}
+
+#questao07 .imagem-questao{
+    background-image: url('../img/alface.jpg');
+    background-position: center;
+}
+
+#questao08 .imagem-questao{
+    background-image: url('../img/alface.jpg');
+    background-position: center;
+}
+
+#questao09 .imagem-questao{
+    background-image: url('../img/alface.jpg');
+    background-position: center;
+}
+
+#questao10 .imagem-questao{
+    background-image: url('../img/alface.jpg');
+    background-position: center;
+}
+
+h3 {
     padding: 20px 0 40px 0;
 }
 
@@ -45,9 +91,10 @@ main div p {
 }
 
 .alternativas {
-    padding-bottom: 80px;
+    padding-bottom: 40px;
 }
 
 input {
     margin-right: 25px;
+    height: auto;
 }
