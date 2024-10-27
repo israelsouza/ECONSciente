@@ -1,15 +1,18 @@
 #carrossel {
     display: flex;
     justify-content: center;
+}
 
+.none {
+    display: none;
 }
 
 .flv {
-    padding: 80px 0;
+    padding: 100px 30px 100px 30px;
     width: 400px;
     height: 300px;
-    background-color: white;
-    text-align: center;
+    text-align: justify;
+    background-color: red;
 }
 
 .flv-image {
@@ -21,7 +24,10 @@
 
 .flv h3 {
     padding-bottom: 15px;
+    text-align: center;
 }
+
+/* F R U T A S */
 
 #maca {
     background-image: url(../img/fruta/red-apple-isolated.jpg);
@@ -44,47 +50,183 @@
     background-repeat: no-repeat;
 }
 
-#pepino{
+#kiwi {
+    background-image: url(../img/fruta/kiwi_isolated.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#manga {
+    background-image: url(../img/fruta/manga_isolated.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#melancia {
+    background-image: url(../img/fruta/melancia_isolated.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#pessego {
+    background-image: url(../img/fruta/pessego_isolated.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#abacaxi {
+    background-image: url(../img/fruta/abacaxi_isolated.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#laranja {
+    background-image: url(../img/fruta/laranja_isolated.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* L E G U M E S */
+
+#pepino {
     background-image: url(../img/legume/pepino_isolated.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-#abobora{
+#abobora {
     background-image: url(../img/legume/abobora_isolated.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-#batata{
+#batata {
     background-image: url(../img/legume/batata_isolated.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-#alface{
+#cebola {
+    background-image: url(../img/legume/cebola_isolated.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#beterraba {
+    background-image: url(../img/legume/beterraba_isolated.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#aspargo {
+    background-image: url(../img/legume/aspargo_isolated.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#rabanete {
+    background-image: url(../img/legume/rabanete_isolated.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#ervilha {
+    background-image: url(../img/legume/ervilha_isolated.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#berinjela {
+    background-image: url(../img/legume/berinjela_isolated.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* V E R D U R A S */
+
+#alface {
     background-image: url(../img/verdura/alface_isolated.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-#couve{
+#couve {
     background-image: url(../img/verdura/couve_isolated.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-#espinafre{
+#espinafre {
     background-image: url(../img/verdura/espinafre_isolated.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+
+
+#brocolis {
+    background-image: url(../img/verdura/brocolis_isolated.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#agriao {
+    background-image: url(../img/verdura/agriao_isolated.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#repolho {
+    background-image: url(../img/verdura/repolho_isolated.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
+
+#acelga {
+    background-image: url(../img/verdura/acelga_isolated.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#pimentao {
+    background-image: url(../img/verdura/pimentaoVM_isolated.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#coentro {
+    background-image: url(../img/verdura/coentro_isolated.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 
 .esq {
     margin-left: 10px;
@@ -116,16 +258,4 @@
 
 #carrossel button:hover {
     cursor: pointer;
-}
-
-.fruta {
-    display: block;
-}
-
-.legume {
-    display: none;
-}
-
-.verdura {
-    display: none;
 }
