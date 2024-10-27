@@ -11,3 +11,8 @@
     list-style: none;
     padding: 2px 0;
 }
+
+.rodape svg{
+    width: 50px;
+    height: auto;
+}

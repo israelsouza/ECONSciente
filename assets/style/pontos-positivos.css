@@ -1,4 +1,4 @@
-#pontos-positivos{
+.pontos-positivos{
     display: flex;
     justify-content: space-around;
     padding: 20px 0;
@@ -22,4 +22,5 @@
     height: 220px;
     margin: 0 auto;
     margin-bottom: 20px;
+    text-align: center;
 }
