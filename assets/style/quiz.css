@@ -1,8 +1,8 @@
-.display_block{
+.display_block {
     display: block;
 }
 
-.display_none{
+.display_none {
     display: none;
 }
 
@@ -33,54 +33,54 @@ h1 {
     background-repeat: no-repeat;
 }
 
-#questao01 .imagem-questao{
+#questao01 .imagem-questao {
     background-image: url('../img/quiz/quiz1-questao1.jpeg');
     background-position: center;
 
 }
 
-#questao02 .imagem-questao{
+#questao02 .imagem-questao {
     background-image: url('../img/quiz/quiz1-questao2.jpeg');
     background-position: center;
 }
 
-#questao03 .imagem-questao{
+#questao03 .imagem-questao {
     background-image: url('../img/quiz/quiz1-questao3.png');
     background-position: center;
 }
 
-#questao04 .imagem-questao{
+#questao04 .imagem-questao {
     background-image: url('../img/quiz/quiz1-questao4.jpeg');
     background-position: center;
     background-size: contain;
 }
 
-#questao05 .imagem-questao{
+#questao05 .imagem-questao {
     background-image: url('../img/quiz/quiz1-questao5.jpeg');
     background-position: center;
 }
 
-#questao06 .imagem-questao{
+#questao06 .imagem-questao {
     background-image: url('../img/quiz/quiz1-questao6.jpeg');
     background-position: center;
 }
 
-#questao07 .imagem-questao{
+#questao07 .imagem-questao {
     background-image: url('../img/quiz/quiz1-questao7.jpeg');
     background-position: center;
 }
 
-#questao08 .imagem-questao{
+#questao08 .imagem-questao {
     background-image: url('../img/quiz/quiz1-questao8.jpeg');
     background-position: center;
 }
 
-#questao09 .imagem-questao{
+#questao09 .imagem-questao {
     background-image: url('../img/quiz/quiz1-questao9.jpeg');
     background-position: center;
 }
 
-#questao10 .imagem-questao{
+#questao10 .imagem-questao {
     background-image: url('../img/quiz/quiz1-questao10.jpeg');
     background-position: center;
 }

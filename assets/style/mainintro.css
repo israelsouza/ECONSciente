@@ -37,21 +37,23 @@ p {
     font-size: 20px;
 }
 
-#sessoes{
+#sessoes {
     height: 410px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     text-align: center;
 
-    & button{
+    & button {
         margin: 0 20px;
         border: none;
         border-radius: 50%;
         background-color: red;
         height: 20px;
         width: 20px;
-    };
+    }
+
+    ;
 
     & button:hover {
         cursor: pointer;
