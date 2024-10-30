@@ -24,7 +24,8 @@
 - Botão para retornar questão anterior
 - Calculo de resultado
 - Tela de resultado
-- Tela inicial para levar aos tipos de quiz
-- Alternativa (ref card #001)
+- Tela inicial (ref card #003)      até 01/11
+- Alternativa (ref card #001)       até 01/11
+- Sort (ref card #002)
 
 ### Catálogo
