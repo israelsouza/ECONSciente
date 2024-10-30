@@ -1,3 +1,34 @@
+// pegar botoes
+// ao clicar no segundo, trocar img
+// ao clicar no 3o trocar fundo pro video
+
+// funcao que
+// desativar botao atual, add classe ao selecionado
+// desativar imagem anterior, ativar imagem selecionada
+
+var botoes = document.querySelectorAll('button[id^="intro-btn-"]');
+console.log(botoes)
+
+function mudarFundoPrincipal (indice) {
+    let atual = botoes[indice]
+    atual.id = 'botao-intro-'
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 var posicao = 1;
 
 /* vai capturar todas div que tem a estrutura 'item-carrossel-' e montar uma lista com esses elementos, podendo dps tratar de forma individual */
