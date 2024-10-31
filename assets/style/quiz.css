@@ -6,6 +6,11 @@
     display: none;
 }
 
+.centralizar{
+    margin: 0 auto;
+    text-align: center;
+}
+
 main {
     padding-top: 120px;
     background-color: rgba(171, 231, 160, 0.737);
@@ -91,14 +96,24 @@ h3 {
 
 main div p {
     padding: 5px 0;
+    margin-bottom: 20px;
     font-size: 20px;
+    transition: .8s;
+}
+
+main div p:hover{
+    transition: .4s;
+    border-bottom: 2px solid;
 }
 
 .alternativas {
+    max-width: 850px;
+    margin: 0 auto;
     padding-bottom: 40px;
 }
 
 input {
     margin-right: 25px;
-    height: auto;
+    width: 18px;
+    height: 18px;
 }
