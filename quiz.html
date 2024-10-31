@@ -49,28 +49,35 @@
             <h3 class="txt-center">1. Qual a maneira correta de conservar hortaliças, como alface e coentro?</h3>
             <div class="alternativas">
                 <p>
-                    <input type="radio" onclick="selecionado(val=0)" name="questao" id="a">Guardar diretamente na
+                    <input type="radio" name="questao" >Guardar diretamente na
                     geladeira, sem lavar e sem proteger.
                 </p>
 
                 <p>
-                    <input type="radio" onclick="selecionado(val=1)" name="questao" id="b">Lavar, secar bem e armazenar
+                    <input type="radio" class="correta" value="1" name="questao" >Lavar, secar bem e armazenar
                     em um pote hermético como papel
                     toalha.
                 </p>
 
                 <p>
-                    <input type="radio" onclick="selecionado(val=0)" name="questao" id="c">Congelar logo após a compra
+                    <input type="radio" name="questao" >Congelar logo após a compra
                     para mantê-las frescas por mais
                     tempo.
                 </p>
 
                 <p>
-                    <input type="radio" onclick="selecionado(val=0)" name="questao" id="d">Deixar fora da geladeira, em
+                    <input type="radio" name="questao" >Deixar fora da geladeira, em
                     um local seco e arejado.
                 </p>
 
             </div>
+
+            <div class="centralizar">
+                <button onclick="proximaQuestao()">Enviar</button>
+                <button disabled>Retornar</button>
+            </div>
+
+
         </div>
 
         <div class="display_none" id="questao02">
