@@ -29,3 +29,8 @@
 - Sort (ref card #002)
 
 ### Catálogo
+
+
+add no index, texto detalhado - sessao intro-main
+
+O site oferece um repositório centralizado de informações sobre manuseio, armazenamento, condições, aproveitamento e descarte de frutas, legumes e verduras, visando combater a fragmentação de dados disponíveis na internet. Ele apresenta conteúdos estruturados com base em recomendações de especialistas em segurança alimentar e sustentabilidade, abordando técnicas de preservação, condições ideais de armazenamento, identificação de alimentos estragados, aproveitamento integral dos produtos e descarte consciente. Além disso, conta com uma funcionalidade de quiz interativo que permite ao usuário testar e aprimorar seu conhecimento. O objetivo é promover práticas de consumo consciente e reduzir o desperdício alimentar.
