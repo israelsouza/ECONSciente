@@ -12,7 +12,16 @@
     padding: 2px 0;
 }
 
-.rodape svg {
-    width: 50px;
+.rodape .icones-rodape  a  {
+    width: 800px;
+    height: 800px;
+    padding-top: 20px;
+    
+}
+
+.rodape div.icones-rodape img:first-child {
+    width: 40px;
     height: auto;
+    padding-top: 20px;
+    padding-right: 10px;
 }

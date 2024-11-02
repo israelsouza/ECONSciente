@@ -6,12 +6,29 @@
 // desativar botao atual, add classe ao selecionado
 // desativar imagem anterior, ativar imagem selecionada
 
-var botoes = document.querySelectorAll('button[id^="intro-btn-"]');
-console.log(botoes)
+const introMissao = document.getElementById('intro-missao')
+const introVisao = document.getElementById('intro-visao')
+const introVideo = document.getElementById('intro-video')
 
-function mudarFundoPrincipal (indice) {
-    let atual = botoes[indice]
-    atual.id = 'botao-intro-'
+function mudarFundoPrincipal (valor) {
+    if (valor == 1) {
+        introMissao.style.display = 'block'
+
+        introVisao.style.display = 'none'
+        introVideo.style.display = 'none'
+    } else if (valor == 2) {
+        introMissao.style.display = 'none'
+
+        introVisao.style.display = 'block'
+
+        introVideo.style.display = 'none'
+        
+    } else if (valor == 3) {
+        introMissao.style.display = 'none'
+        introVisao.style.display = 'none'
+
+        introVideo.style.display = 'block'
+    }
 }
 
 

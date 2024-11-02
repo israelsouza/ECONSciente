@@ -17,7 +17,7 @@
 
     <header>
         <div>
-            <img src="./assets/img/ECONSv2.png" alt="">
+            <a href="#"><img src="./assets/img/ECONSv2.png" alt=""></a>
         </div>
 
         <div>
@@ -41,97 +41,37 @@
     </header>
 
     <main class="intro">
-        <div class="intro-info">
+        <div class="intro-info block" id="intro-missao">
             <h1>Nossa Missão</h1>
-            <p>Aqui no ECOnsciente, você encontrará informações e dicas práticas de armazenamento de frutas, legumes e
-                nones, e para testar seus conhecimentos participe dos nossos quizzes e veja o quanto você realmente
-                sabe. Nosso objetivo é conscientizar e educar a população sobre a importância de reduzir o desperdício
-                de alimentos, acreditamos que pequenas mudanças em nossos hábitos diários podem ter um grande impacto.
+            <p id="missao">
+                Aqui no ECOnsciente, você encontrará informações e dicas práticas de armazenamento de frutas, legumes e nones, e para testar seus conhecimentos participe dos nossos quizzes e veja o quanto você realmente sabe. Nosso objetivo é conscientizar e educar a população sobre a importância de reduzir o desperdício de alimentos, acreditamos que pequenas mudanças em nossos hábitos diários podem ter um grande impacto.
             </p>
             <button>ARTIGO PRINCIPAL</button>
         </div>
 
+        <div class="intro-info none" id="intro-visao">
+            <h1>O que pretendemos?</h1>
+            <p>
+                Nosso propósito é incentivar o consumo consciente e ajudar a reduzir o desperdício de alimentos. Para isso, reunimos informações essenciais sobre como manusear, armazenar, aproveitar e descartar frutas, legumes e verduras. Visamos resolver a fragmentação de dados espalhados pela internet, oferecendo conteúdos de fácil acesso e compreensão. Com isso, você pode aprender sobre técnicas de preservação, condições ideais de armazenamento, como identificar alimentos estragados, aproveitar ao máximo cada produto e descartar de forma consciente. Além disso, incluimos um quiz interativo que permite você testar e aprimorar os seus conhecimentos de uma forma divertida.
+            </p>
+        </div>
+
+        <!-- V I D E O  -->
+        <div class="intro-info none" id="intro-video">
+            <div id="video">
+                <div class="video">
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- B O T O E S -->
         <div id="sessoes">
-            <button id="intro-btn-01 selecionado" onclick="mudarFundoPrincipal(0)"></button>
-            <button id="intro-btn-02" onclick="mudarFundoPrincipal(1)"></button>
-            <button id="intro-btn-03" onclick="mudarFundoPrincipal(2)"></button>
+            <button id="intro-btn-01 selecionado" onclick="mudarFundoPrincipal(1)"></button>
+            <button id="intro-btn-02" onclick="mudarFundoPrincipal(2)"></button>
+            <button id="intro-btn-03" onclick="mudarFundoPrincipal(3)"></button>
         </div>
     </main>
-
-    <section>
-
-        <div class="pontos-positivos">
-            <div class="box">
-                <div class="box-content"><img src="./assets/money-change-svgrepo-com.svg" width="200px" alt=""
-                        srcset=""></div>
-                <h3>Economia</h3>
-                <p>Ao adotar práticas sustentáveis, as famílias podem economizar em suas compras, aproveitando melhor os
-                    alimentos e reduzindo a necessidade de reposição constante.</p>
-            </div>
-
-            <div class="box">
-                <div class="box-content"><img src="./assets/health-care-add-svgrepo-com.svg" width="200px" alt=""
-                        srcset=""></div>
-                <h3>Diminuição dos Custos de Saúde</h3>
-                <p>Uma dieta rica em frutas e verduras pode reduzir gastos com saúde a longo prazo, já que uma
-                    alimentação saudável previne doenças e diminui despesas com tratamentos.</p>
-            </div>
-        </div>
-
-        <div class="pontos-positivos">
-            <div class="box">
-                <div class="box-content ">
-                    <img src="./assets/fruits-fruit-svgrepo-com.svg" width="200px" alt="" srcset="">
-                </div>
-                <h3>Prolongamento da Vida Útil dos Alimentos</h3>
-                <p>Com orientações sobre armazenamento correto, o projeto ajuda as pessoas a manterem frutas, legumes e
-                    verduras frescos por mais tempo, reduzindo a necessidade de compras frequentes e o desperdício
-                    desnecessário.</p>
-            </div>
-
-            <div class="box">
-                <div class="box-content">
-                    <img src="./assets/tomato-svgrepo-com.svg" width="200px" alt="" srcset="">
-                </div>
-                <h3>Preservação de Nutrientes e Sabor</h3>
-                <p>Armazenar e conservar os alimentos de forma adequada evita a perda de nutrientes e mantém o sabor
-                    natural dos produtos, promovendo uma alimentação mais nutritiva e saborosa.</p>
-            </div>
-
-        </div>
-
-        <div class="pontos-positivos">
-            <div class="box">
-                <div class="box-content ">
-                    <img src="./assets/recycling-bin-recycling-svgrepo-com.svg" width="200px" alt="" srcset="">
-                </div>
-                <h3>Redução do Impacto Ambiental do Descarte</h3>
-                <p>Orientações sobre o descarte sustentável ajudam a diminuir a quantidade de lixo orgânico enviada para
-                    aterros e incentivam a compostagem caseira, o que reduz a emissão de gases de efeito estufa e
-                    enriquece o solo.</p>
-            </div>
-
-            <div class="box">
-                <div class="box-content">
-                    <img src="./assets/graphic-graph.svg" width="200px" alt="" srcset="">
-                </div>
-                <h3>Diminuição da Emissão de Gases de Efeito Estufa</h3>
-                <p>Com a redução do desperdício de alimentos, há uma diminuição na produção de resíduos orgânicos que,
-                    quando decompostos, emitem gases de efeito estufa. O projeto contribui para minimizar esses impactos
-                    ambientais.</p>
-            </div>
-
-        </div>
-
-
-
-
-
-    </section>
-
-    <div>
-        <h2></h2>
-    </div>
 
     <section id="carrossel">
 
@@ -352,73 +292,126 @@
 
     </section>
 
-    <section id="video">
-        <div class="video">
+    <section>
+
+        <div class="pontos-positivos">
+            <div class="box">
+                <div class="box-content"><img src="./assets/money-change-svgrepo-com.svg" width="200px" alt=""
+                        srcset=""></div>
+                <h3>Economia</h3>
+                <p>Ao adotar práticas sustentáveis, as famílias podem economizar em suas compras, aproveitando melhor os
+                    alimentos e reduzindo a necessidade de reposição constante.</p>
+            </div>
+
+            <div class="box">
+                <div class="box-content"><img src="./assets/health-care-add-svgrepo-com.svg" width="200px" alt=""
+                        srcset=""></div>
+                <h3>Diminuição dos Custos de Saúde</h3>
+                <p>Uma dieta rica em frutas e verduras pode reduzir gastos com saúde a longo prazo, já que uma
+                    alimentação saudável previne doenças e diminui despesas com tratamentos.</p>
+            </div>
+
+            <div class="box">
+                <div class="box-content ">
+                    <img src="./assets/fruits-fruit-svgrepo-com.svg" width="200px" alt="" srcset="">
+                </div>
+                <h3>Prolongamento da Vida Útil dos Alimentos</h3>
+                <p>Com orientações sobre armazenamento correto, o projeto ajuda as pessoas a manterem frutas, legumes e
+                    verduras frescos por mais tempo, reduzindo a necessidade de compras frequentes e o desperdício
+                    desnecessário.</p>
+            </div>
 
         </div>
+
+
+        <div class="pontos-positivos">
+
+            <div class="box">
+                <div class="box-content">
+                    <img src="./assets/tomato-svgrepo-com.svg" width="200px" alt="" srcset="">
+                </div>
+                <h3>Preservação de Nutrientes e Sabor</h3>
+                <p>Armazenar e conservar os alimentos de forma adequada evita a perda de nutrientes e mantém o sabor
+                    natural dos produtos, promovendo uma alimentação mais nutritiva e saborosa.</p>
+            </div>
+
+            <div class="box">
+                <div class="box-content ">
+                    <img src="./assets/recycling-bin-recycling-svgrepo-com.svg" width="200px" alt="" srcset="">
+                </div>
+                <h3>Redução do Impacto Ambiental do Descarte</h3>
+                <p>Orientações sobre o descarte sustentável ajudam a diminuir a quantidade de lixo orgânico enviada para
+                    aterros e incentivam a compostagem caseira, o que reduz a emissão de gases de efeito estufa e
+                    enriquece o solo.</p>
+            </div>
+
+            <div class="box">
+                <div class="box-content">
+                    <img src="./assets/graphic-graph.svg" width="200px" alt="" srcset="">
+                </div>
+                <h3>Diminuição da Emissão de Gases de Efeito Estufa</h3>
+                <p>Com a redução do desperdício de alimentos, há uma diminuição na produção de resíduos orgânicos que,
+                    quando decompostos, emitem gases de efeito estufa. O projeto contribui para minimizar esses impactos
+                    ambientais.</p>
+            </div>
+
+        </div>
+
+
+
+
+
     </section>
+
+    <div>
+        <h2></h2>
+    </div>
 
     <footer class="rodape">
 
         <div>
+
             &reg; Direitos reservados
-            <div><a href="https://www.instagram.com/ec0ns_/#" target="_blank">
-                    <?xml version="1.0" ?>
-                    <!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
-                    <svg enable-background="new 0 0 128 128" height="128px" id="Layer_1" version="1.1"
-                        viewBox="0 0 128 128" width="128px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <g>
-                            <linearGradient gradientTransform="matrix(1 0 0 -1 594 633)" gradientUnits="userSpaceOnUse"
-                                id="SVGID_1_" x1="-566.7114" x2="-493.2875" y1="516.5693" y2="621.4296">
-                                <stop offset="0" style="stop-color:#FFB900" />
-                                <stop offset="1" style="stop-color:#9100EB" />
-                            </linearGradient>
-                            <circle cx="64" cy="64" fill="url(#SVGID_1_)" r="64" />
-                        </g>
-                        <g>
-                            <g>
-                                <path
-                                    d="M82.333,104H45.667C33.72,104,24,94.281,24,82.333V45.667C24,33.719,33.72,24,45.667,24h36.666    C94.281,24,104,33.719,104,45.667v36.667C104,94.281,94.281,104,82.333,104z M45.667,30.667c-8.271,0-15,6.729-15,15v36.667    c0,8.271,6.729,15,15,15h36.666c8.271,0,15-6.729,15-15V45.667c0-8.271-6.729-15-15-15H45.667z"
-                                    fill="#FFFFFF" />
-                            </g>
-                            <g>
-                                <path
-                                    d="M64,84c-11.028,0-20-8.973-20-20c0-11.029,8.972-20,20-20s20,8.971,20,20C84,75.027,75.028,84,64,84z     M64,50.667c-7.352,0-13.333,5.981-13.333,13.333c0,7.353,5.981,13.333,13.333,13.333S77.333,71.353,77.333,64    C77.333,56.648,71.353,50.667,64,50.667z"
-                                    fill="#FFFFFF" />
-                            </g>
-                            <g>
-                                <circle cx="85.25" cy="42.75" fill="#FFFFFF" r="4.583" />
-                            </g>
-                        </g>
-                    </svg>
-                </a>
+        </div>
+
+        <div>
+            
+            <div> <!-- IMAGEM INSTA -->
+                <div>
+                    Veja mais sobre 
+                </div>
+                
+                <div class="icones-rodape">
+                    <a href="http://" target="_blank" rel="noopener noreferrer"><img src="assets/img/insta.png" alt=""></a>
+              
+                    <a href="https://www.reddit.com/user/Ec0nsciente/" target="_blank"><img src="assets/img/red.png" alt=""></a>
+                </div>
+
             </div>
         </div>
 
 
         <div>
             <ul>
-                <li class="fonte-bold">AUTORES</li>
-                <li>Israel</li>
-                <li>Carlos</li>
-                <li>Matheus</li>
-                <li>Raquel</li>
-                <li>Luciano</li>
+                <li class="fonte-bold">AUTORES </li>
+                <li>Israel de Souza </li>
+                <li>Carlos Manoel </li>
+                <li>Matheus Gobbi </li>
+                <li>Raquel Souza </li>
+                <li>Luciano Rodrigues </li>
             </ul>
         </div>
 
         <div>
             <ul>
-                <li class="fonte-bold">ARTIGOS</li>
-                <li>01</li>
-                <li>02</li>
-                <li>03</li>
-                <li>04</li>
-                <li>05</li>
+                <li class="fonte-bold">CARGOS</li>
+                <li>Desenvolvedor</li>
+                <li>Designer</li>
+                <li>Pesquisador</li>
+                <li>Pesquisador</li>
+                <li>Pesquisador</li>
             </ul>
         </div>
-
 
 
     </footer>
