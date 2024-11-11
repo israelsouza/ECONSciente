@@ -1,3 +1,8 @@
+.center{
+    text-align: center;
+    padding-top: 50px;
+}
+
 #carrossel {
     display: flex;
     justify-content: center;
