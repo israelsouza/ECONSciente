@@ -17,3 +17,17 @@ main{
 .col:hover{
     cursor: pointer;
 }
+
+.conteudo-pesquisa-content{
+    padding: 0px 80px 20px;
+}
+
+.conteudo-pesquisa-content p {
+    font-size: 23px;
+}
+
+.conteudo-pesquisa-content li {
+    font-size: 23px;
+    font-weight: bold;
+
+}
