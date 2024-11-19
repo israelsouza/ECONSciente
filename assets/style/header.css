@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -34,7 +35,7 @@ header li {
 
 header li a {
     text-decoration: none;
-    color: black;
+    color: #51b441;
 }
 
 
@@ -42,4 +43,30 @@ li>svg {
     margin: 0 70px 0 50px;
     width: 30px;
     height: auto;
+    cursor: pointer;
+    color: #51b441;
+}
+
+#barraLateral{
+    padding-top: 74px;
+    background-color: #fff281;
+    margin: 0 auto;
+    text-align: center;
+    transition: .9s;
+}
+
+#barraLateral a{
+    color: black;
+    text-decoration: none;
+}
+
+#barraLateral ol li{
+    border-top: 1px solid black;
+    list-style: none;
+    padding: 5px 0;
+}
+
+#barraLateral ol li:hover{
+    background-color: #faea54f9;
+    transition: .2s;
 }

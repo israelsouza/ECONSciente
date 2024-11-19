@@ -29,8 +29,8 @@
                     <li><a href="./quiz.html">Quiz</a></li>
                     <li><a href="./feedback.html">Feedback</a></li>
                     <li>
-                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50"
-                            viewBox="0 0 50 50">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" id="menu-hamb"
+                            viewBox="0 0 50 50" onclick="mostrarBarraLateral()">
                             <path
                                 d="M 5 8 A 2.0002 2.0002 0 1 0 5 12 L 45 12 A 2.0002 2.0002 0 1 0 45 8 L 5 8 z M 5 23 A 2.0002 2.0002 0 1 0 5 27 L 45 27 A 2.0002 2.0002 0 1 0 45 23 L 5 23 z M 5 38 A 2.0002 2.0002 0 1 0 5 42 L 45 42 A 2.0002 2.0002 0 1 0 45 38 L 5 38 z">
                             </path>
@@ -41,6 +41,20 @@
         </div>
 
     </header>
+
+    <aside id="barraLateral" class="none">
+        <nav>
+            <p>Veja nosso catálogo completo de</p>
+            <ol>
+                <a href="./frutas.html" target="_self"><li>Frutas</li></a>
+                <a href="./legumes.html" target="_self"><li>Legumes</li></a>
+                <a href="./verduras.html" target="_self"><li>Verduras</li></a>
+                
+            </ol>
+        </nav>
+    </aside>
+
+
 
     <main class="intro">
         <div class="intro-info block" id="intro-missao">
@@ -53,36 +67,32 @@
 
         <div class="intro-info none" id="intro-visao">
             <h1>O que pretendemos?</h1>
-            <p>
+            <p id="pretencao">
                 Nosso propósito é incentivar o consumo consciente e ajudar a reduzir o desperdício de alimentos. Para isso, reunimos informações essenciais sobre como manusear, armazenar, aproveitar e descartar frutas, legumes e verduras. Visamos resolver a fragmentação de dados espalhados pela internet, oferecendo conteúdos de fácil acesso e compreensão. Com isso, você pode aprender sobre técnicas de preservação, condições ideais de armazenamento, como identificar alimentos estragados, aproveitar ao máximo cada produto e descartar de forma consciente. Além disso, incluimos um quiz interativo que permite você testar e aprimorar os seus conhecimentos de uma forma divertida.
             </p>
         </div>
 
-        <!-- V I D E O  -->
-        <div class="intro-info none" id="intro-video">
-            <div id="video">
-                <div class="video">
-                    
-                </div>
-            </div>
-        </div>
-
         <!-- B O T O E S -->
         <div id="sessoes">
-            <button id="intro-btn-01 selecionado" onclick="mudarFundoPrincipal(1)"></button>
-            <button id="intro-btn-02" onclick="mudarFundoPrincipal(2)"></button>
-            <button id="intro-btn-03" onclick="mudarFundoPrincipal(3)"></button>
+            <!-- <button id="intro-btn-01 selecionado" onclick="mudarFundoPrincipal(1)"></button> -->
+            <svg version="1.1" id="icons_1_" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" style="enable-background:new 0 0 128 128" width="20" height="20" xml:space="preserve" onclick="mudarFundoPrincipal(1)"><path class="st2" d="M64 .3C28.7.3 0 28.8 0 64s28.7 63.7 64 63.7 64-28.5 64-63.7S99.3.3 64 .3zm0 121C32.2 121.3 6.4 95.7 6.4 64 6.4 32.3 32.2 6.7 64 6.7s57.6 25.7 57.6 57.3c0 31.7-25.8 57.3-57.6 57.3zm22.4-63.7H57.6l12.3-15.2c0-2.2-1.8-3.9-3.9-3.9h-7.1L32 64l26.8 25.5H66c2.2 0 3.9-1.8 3.9-3.9L57.1 69.9h28.6c2.2 0 3.9-1.8 3.9-3.9v-4c0-2.1-1-4.4-3.2-4.4z" id="left_1_"/></svg>
+
+
+
+            <!-- <button id="intro-btn-02" onclick="mudarFundoPrincipal(2)"></button> -->
+
+            <svg version="1.1" id="icons_1_" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" onclick="mudarFundoPrincipal(2)" style="enable-background:new 0 0 128 128" width="20" height="20"xml:space="preserve"><style>.st0{display:none}.st1{display:inline}.st2{fill:#0a0a0a}</style><g id="row2_1_"><g id="_x33__3_"><path class="st2" d="M64 .3C28.8.3.3 28.8.3 64s28.5 63.7 63.7 63.7 63.7-28.5 63.7-63.7S99.2.3 64 .3zm0 121C32.3 121.3 6.7 95.7 6.7 64 6.7 32.3 32.3 6.7 64 6.7c31.7 0 57.3 25.7 57.3 57.3 0 31.7-25.6 57.3-57.3 57.3zm-2-82.8c-2.2 0-3.9 1.8-3.9 3.9l12.2 15.2H41.7c-2.2 0-3.2 2.2-3.2 4.4v4c0 2.2 1.8 3.9 3.9 3.9h28.4L58.1 85.6c0 2.2 1.8 3.9 3.9 3.9h7.1L95.8 64 69.1 38.5H62z" id="right_1_"/></g></g></svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"><path d="M10 20A10 10 0 1 0 0 10a10 10 0 0 0 10 10zm1.289-15.7 1.422 1.4-4.3 4.344 4.289 4.245-1.4 1.422-5.714-5.648z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"><path d="M10 20A10 10 0 1 0 0 10a10 10 0 0 0 10 10zM8.711 4.3l5.7 5.766L8.7 15.711l-1.4-1.422 4.289-4.242-4.3-4.347z"/></svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"><path d="M10 0a10 10 0 1 0 10 10A10 10 0 0 0 10 0zm6 11H7.38l2.376 2.375-1.414 1.414-4.735-4.734 4.735-4.733 1.414 1.414L7.49 9H16z"/></svg>
+
+
+
+
         </div>
     </main>
-
-    <section id="catalogo">
-        <h2 class="center">Veja nosso catálogo completo</h2>
-        <div class="container-catalogo">
-            <a href="./frutas.html" target="_self"><div class="container-catalogo-itens"> FRUTAS </div></a>
-            <a href="./legumes.html" target="_self"><div class="container-catalogo-itens"> LEGUMES</div></a>
-                <div class="container-catalogo-itens">verduras</div>
-        </div>
-    </section>
 
     <h2 class="center">
         Veja um pouco sobre:
@@ -395,7 +405,7 @@
                 </div>
                 
                 <div class="icones-rodape">
-                    <a href="http://" target="_blank" rel="noopener noreferrer"><img src="assets/img/insta.png" alt=""></a>
+                    <a href="http://www.instagram.com/ec0ns_" target="_blank" rel="noopener noreferrer"><img src="assets/img/insta.png" alt=""></a>
               
                     <a href="https://www.reddit.com/user/Ec0nsciente/" target="_blank"><img src="assets/img/red.png" alt=""></a>
                 </div>
@@ -430,7 +440,7 @@
     </footer>
 
 
-    <script src="./assets/js/carrossel.js"></script>
+    <script src="./assets/js/index.js"></script>
 </body>
 
 </html>
