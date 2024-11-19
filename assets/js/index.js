@@ -1,33 +1,43 @@
-// pegar botoes
-// ao clicar no segundo, trocar img
-// ao clicar no 3o trocar fundo pro video
+/* M E N U   C A B E Ç A L H O */
 
-// funcao que
-// desativar botao atual, add classe ao selecionado
-// desativar imagem anterior, ativar imagem selecionada
+const menu = document.getElementById('menu-hamb')
+const barraLateral = document.getElementById('barraLateral')
+
+var barraAtiva = false
+
+function mostrarBarraLateral() {
+    // ao clicar em menu, a barra apareça, ao clicar no menu novamente, a barra desaparece
+    if (barraAtiva == false) {
+        barraLateral.style.display = 'block'
+        barraLateral.style.textAlign = 'rigth'
+
+        barraAtiva = true
+    } else if (barraAtiva == true) {
+        //esconde a barra
+        barraLateral.style.display = 'none'
+
+
+        barraAtiva = false
+    }
+}
+
+
+
+/* M A I N - I N T R O */
 
 const introMissao = document.getElementById('intro-missao')
 const introVisao = document.getElementById('intro-visao')
-const introVideo = document.getElementById('intro-video')
+
 
 function mudarFundoPrincipal (valor) {
     if (valor == 1) {
         introMissao.style.display = 'block'
 
         introVisao.style.display = 'none'
-        introVideo.style.display = 'none'
     } else if (valor == 2) {
         introMissao.style.display = 'none'
 
         introVisao.style.display = 'block'
-
-        introVideo.style.display = 'none'
-        
-    } else if (valor == 3) {
-        introMissao.style.display = 'none'
-        introVisao.style.display = 'none'
-
-        introVideo.style.display = 'block'
     }
 }
 
@@ -36,15 +46,7 @@ function mudarFundoPrincipal (valor) {
 
 
 
-
-
-
-
-
-
-
-
-
+/* C A R R O S S E L */
 
 var posicao = 1;
 
