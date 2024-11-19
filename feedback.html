@@ -5,9 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feedback</title>
+
     <link rel="stylesheet" href="./assets/style/header.css">
     <link rel="stylesheet" href="./assets/style/rodape.css">
     <link rel="stylesheet" href="./assets/style/feedback.css">
+
+    <link href="./scss/_variables.scss">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
 </head>
 
 <body>
@@ -41,66 +47,78 @@
 
         <h1>Deixe a sua avaliação sobre o site</h1>
 
-        <form> <!-- por cor de fundo -->
-
-            <div>
-                <label for="nome">Nome</label>
-                <input type="text" name="nome" id="nome" required>
+        <form>
+            <div class="mb-3 px-3">
+                <label class="form-label">Nome completo</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" >
             </div>
 
-            <div>
-                <label for="email">E-mail</label>
-                <input type="email" name="email" id="email" required>
+            <div class="mb-4 px-3">
+                <label class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" required>
+                <div id="emailHelp" class="form-text">Não vamos compartilhar o seu e-mail com ninguém.</div>
             </div>
 
-            <div>
-                <label for="nascimento">Data de Nascimento</label>
-                <input type="date" name="nascimento" id="nascimento" min="1900-01-01" max="2024-01-01">
+            <!-- data de nascimento -->
+
+            <div class="px-3 mb-4">
+
+                <div>
+                    <label class="form-label">Em qual faixa etária você se encontra?</label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                        value="option1" required>
+                    <label class="form-check-label" for="inlineRadio1">Até 20 anos</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                        value="option2">
+                    <label class="form-check-label" for="inlineRadio2">Entre 21 e 35 anos</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3"
+                        value="option3">
+                    <label class="form-check-label" for="inlineRadio3">Entre 36 a 50 anos</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3"
+                        value="option3">
+                    <label class="form-check-label" for="inlineRadio3">Mais de 50 anos</label>
+                </div>
             </div>
 
-            <div>
-                <label for="">De 0 a 10, qual a sua nota de satisfação com o site?</label>
-                <!-- como fzr com estrelas ao inves de select -->
-                <select name="" id="">
-                    <option value="" selected disabled>Selecione aqui</option>
-                    <option value="">0</option>
-                    <option value="">1</option>
-                    <option value="">2</option>
-                    <option value="">3</option>
-                    <option value="">4</option>
-                    <option value="">5</option>
-                    <option value="">6</option>
-                    <option value="">7</option>
-                    <option value="">8</option>
-                    <option value="">9</option>
-                    <option value="">10</option>
-                </select>
+            <!-- Avaliações -->
+
+            <div class="mb-3 px-3">
+                <label for="customRange2" class="form-label">De 0 a 5, qual sua satisfação com o site?</label>
+                <input type="range" class="form-range" min="0" max="5" id="notaSatisfacao" required>
             </div>
 
-            <div>
-                <label for="">De 0 a 5, qual a chance de você recomendar o site para um amigo?</label>
-                <!-- como fzr com estrelas ao inves de select -->
-                <select name="" id="">
-                    <option value="" selected disabled>Selecione aqui</option>
-                    <option value="">0</option>
-                    <option value="">1</option>
-                    <option value="">2</option>
-                    <option value="">3</option>
-                    <option value="">4</option>
-                    <option value="">5</option>
-                </select>
+            <div class="mb-3 px-3">
+                <label for="customRange2" class="form-label">De 0 a 5, qual a chance de recomendar pra um amigo?</label>
+                <input type="range" class="form-range" min="0" max="5" id="notaRecomendacao" required>
             </div>
 
-            <div>
-                <textarea name="mensagem" id="mensagem" placeholder="Digite o seu feedback aqui..." required></textarea>
+            <!-- Feedback -->
+
+            <div class="form-floating mb-3 px-3">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                    style="height: 160px" required></textarea>
+                <label for="floatingTextarea2" class="ms-4">Digite o seu feedback aqui</label>
             </div>
 
-            <div>
-                <button type="submit">Enviar</button>
-                <button type="reset">Limpar formulário</button> <!-- estilizar os botoes -->
+            <!-- Botões -->
+
+            <div class="box-botoes text-center mb-3 px-3">
+                <button type="reset" class="btn btn-danger">Limpar todos os campos</button>
+                <button type="submit" class="btn btn-primary">Enviar</button>
             </div>
 
         </form>
+
+
 
     </main>
 
@@ -133,6 +151,10 @@
 
     </footer>
 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 
 </body>
 
