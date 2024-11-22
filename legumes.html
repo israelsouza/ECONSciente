@@ -27,8 +27,8 @@
                     <li><a href="./quiz.html">Quiz</a></li>
                     <li><a href="./feedback.html">Feedback</a></li>
                     <li>
-                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50"
-                            viewBox="0 0 50 50">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" id="menu-hamb"
+                            viewBox="0 0 50 50" onclick="mostrarBarraLateral()">
                             <path
                                 d="M 5 8 A 2.0002 2.0002 0 1 0 5 12 L 45 12 A 2.0002 2.0002 0 1 0 45 8 L 5 8 z M 5 23 A 2.0002 2.0002 0 1 0 5 27 L 45 27 A 2.0002 2.0002 0 1 0 45 23 L 5 23 z M 5 38 A 2.0002 2.0002 0 1 0 5 42 L 45 42 A 2.0002 2.0002 0 1 0 45 38 L 5 38 z">
                             </path>
@@ -40,13 +40,17 @@
 
     </header>
 
-    <!--    alterar nome dos alimentos
-            testar páginas
-            atribuir imagens cada bloco
-                Array
-
-    -->
-
+    <aside id="barraLateral">
+        <nav>
+            <p>Veja nosso catálogo completo de</p>
+            <ol>
+                <a href="./frutas.html" target="_self"><li>Frutas</li></a>
+                <a href="./legumes.html" target="_self"><li>Legumes</li></a>
+                <a href="./verduras.html" target="_self"><li>Verduras</li></a>
+                
+            </ol>
+        </nav>
+    </aside>
 
     <main>
         <div id="Catalogo-Legumes">
@@ -1117,6 +1121,7 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <script src="./assets/js/catalogoL.js"></script>
+    <script src="./assets/js/exibirMenu.js"></script>
 </body>
 
 </html>

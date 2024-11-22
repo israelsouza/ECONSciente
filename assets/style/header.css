@@ -48,6 +48,7 @@ li>svg {
 }
 
 #barraLateral{
+    display: none;
     padding-top: 74px;
     background-color: #fff281;
     margin: 0 auto;
