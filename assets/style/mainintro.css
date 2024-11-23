@@ -52,6 +52,10 @@ p#missao{
     font-size: 20px;
 }
 
+#intro-visao{
+    padding-top: 4px;
+}
+
 #intro-btn-navegacao {
     padding-top: 100px;
     display: flex;
