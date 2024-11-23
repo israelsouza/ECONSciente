@@ -101,8 +101,8 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             id: 'limao',
-            manuseio: 'Os limões devem ser armazenados em local fresco e seco, longe da luz direta, pois isso ajuda a prolongar sua durabilidade. O limão é uma fruta que não amadurece depois de colhida, então deve ser consumido enquanto fresco. Para garantir uma boa conservação, o ideal é que os limões sejam mantidos em temperatura ambiente por até uma semana. Se necessário, pode ser armazenado na geladeira para prolongar a vida útil por até um mês.',
-            armazenamento: '',
+            manuseio: 'Os limões devem ser armazenados em local fresco e seco, longe da luz direta, pois isso ajuda a prolongar sua durabilidade. O limão é uma fruta que não amadurece depois de colhida, então deve ser consumido enquanto fresco.',
+            armazenamento: 'Para garantir uma boa conservação, o ideal é que os limões sejam mantidos em temperatura ambiente por até uma semana. Se necessário, pode ser armazenado na geladeira para prolongar a vida útil por até um mês.',
             condicoes: 'Para garantir que o limão permaneça em boas condições, o ambiente onde ele é guardado deve ser ventilado e não excessivamente úmido, o que poderia acelerar sua deterioração. Em condições ideais, o limão deve ser colocado em uma gaveta própria para frutas, caso seja armazenado na geladeira.',
             aproveitamento: 'Caso o limão comece a deteriorar, mas ainda não esteja totalmente impróprio, pode-se reaproveitar a casca para fazer produtos como limpadores caseiros ou até mesmo para temperos. Se a polpa ainda estiver boa, pode ser usada em sucos, marinadas ou conservas. Limões mais maduros também podem ser transformados em geleias ou sorvetes, evitando o desperdício.',
             descarte: 'Limões que já estiverem com sinais claros de mofo ou decomposição devem ser descartados corretamente. Por ser um resíduo orgânico, ele pode ser destinado à compostagem, uma maneira eficiente de reaproveitar esse resíduo e evitar o desperdício. Caso o descarte em compostagem não seja uma opção, deve-se enviar para aterros destinados a resíduos orgânicos.'
