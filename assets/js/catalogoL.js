@@ -2,30 +2,33 @@ const blocos = document.querySelectorAll('div.col');
 const caminhoLEGUME = "./assets/img/legume/";
 
 const legume = [
-    caminhoLEGUME + 'abobora_isolated.png',
-    caminhoLEGUME + 'aspargo_isolated.png',
-    caminhoLEGUME + 'batata_isolated.png',
-    caminhoLEGUME + 'berinjela_isolated.png',
+    'abobora_isolated.png',
+    'aspargo_isolated.png',
+    'batata_isolated.png',
+    'batatadoce-isolated.jpg',  //
+    
+    'berinjela_isolated.png',//
+    'beterraba_isolated.png',//
+    'cebola_isolated.png',//
+    'cenoura_isolated.jpg',//
 
-    caminhoLEGUME + 'beterraba_isolated.png',
-    caminhoLEGUME + 'cebola_isolated.png',
-    caminhoLEGUME + 'cenoura_isolated.jpg',
-    caminhoLEGUME + '',                         // chuchu
-
-    caminhoLEGUME + 'ervilha_isolated.png',
-    caminhoLEGUME + '',                         // gengibre
-    caminhoLEGUME + '',                         // milho
-    caminhoLEGUME + 'nabo_isolated.png',
-
-    caminhoLEGUME + 'pepino_isolated.png',
-    caminhoLEGUME + '',
-    caminhoLEGUME + 'rabanete_isolated.png',
-    caminhoLEGUME + '',
+    'chuchu-isolated.png',//     
+    'ervilha_isolated.png',//
+    'gengibre-isolated.png',//
+    'mandioca-isolated.jpeg',//
+    
+    'milho-isolated.png', //                        
+    'nabo_isolated.png',//
+    'pepino_isolated.png',//
+    'rabanete_isolated.png',//
 ];
 
+const legumeComCaminho = legume.map((item) => { 
+    return `${caminhoLEGUME}${item}`;
+ });
 
 for (let i = 0; i < legume.length; i++) {
-    blocos[i].style.backgroundImage = `url( ${legume[i]} )`;
+    blocos[i].style.backgroundImage = `url( ${legumeComCaminho[i]} )`;
     blocos[i].style.backgroundPosition = 'center';
     blocos[i].style.backgroundSize = 'contain';
     blocos[i].style.backgroundRepeat = 'no-repeat';
