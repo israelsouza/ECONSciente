@@ -5,22 +5,22 @@ const legume = [
     'abobora_isolated.png',
     'aspargo_isolated.png',
     'batata_isolated.png',
-    'batatadoce-isolated.jpg',  //
+    'batatadoce-isolated.jpg',  
     
-    'berinjela_isolated.png',//
-    'beterraba_isolated.png',//
-    'cebola_isolated.png',//
-    'cenoura_isolated.jpg',//
+    'berinjela_isolated.png',
+    'beterraba_isolated.png',
+    'cebola_isolated.png',
+    'cenoura_isolated.jpg',
 
-    'chuchu-isolated.png',//     
-    'ervilha_isolated.png',//
-    'gengibre-isolated.png',//
-    'mandioca-isolated.jpeg',//
+    'chuchu-isolated.png',
+    'ervilha_isolated.png',
+    'gengibre-isolated.png',
+    'mandioca-isolated.jpeg',
     
-    'milho-isolated.png', //                        
-    'nabo_isolated.png',//
-    'pepino_isolated.png',//
-    'rabanete_isolated.png',//
+    'milho-isolated.png',                      
+    'nabo_isolated.png',
+    'pepino_isolated.png',
+    'rabanete_isolated.png',
 ];
 
 const legumeComCaminho = legume.map((item) => { 
