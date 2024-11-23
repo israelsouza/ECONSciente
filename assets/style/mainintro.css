@@ -52,23 +52,24 @@ p#missao{
     font-size: 20px;
 }
 
-#sessoes {
-    height: 90px;
+#intro-btn-navegacao {
+    padding-top: 100px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     text-align: center;
 
-    & button {
+    & svg {
         margin: 0 20px;
         border: none;
         border-radius: 50%;
-        background-color: green;
-        height: 20px;
-        width: 20px;
+        background-color: white;
+        height: 40px;
+        width: 40px;
     }
 
     & button:hover {
         cursor: pointer;
     }
 }
+

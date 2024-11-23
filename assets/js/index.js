@@ -2,17 +2,32 @@
 
 const introMissao = document.getElementById('intro-missao')
 const introVisao = document.getElementById('intro-visao')
+const icon1 = document.getElementById('icon1')
+const icon2 = document.getElementById('icon2')
 
+valor = 1;
+
+if (valor == 1) {
+    
+} else {
+
+}
 
 function mudarFundoPrincipal (valor) {
     if (valor == 1) {
         introMissao.style.display = 'block'
-
         introVisao.style.display = 'none'
+
+        icon1.style.display = 'none'
+        icon2.style.display = 'block'
+
+
     } else if (valor == 2) {
         introMissao.style.display = 'none'
-
         introVisao.style.display = 'block'
+
+        icon1.style.display = 'block'
+        icon2.style.display = 'none'
     }
 }
 
