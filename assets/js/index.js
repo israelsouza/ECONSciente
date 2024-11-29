@@ -56,6 +56,24 @@ function darDisplayBlock(X, Y) {
     }
 }
 
+
+const tipoAlimentoCarrosselAtual = document.getElementById('alimentoAtual')
+
+
+function verificarPosicao() {
+    if( posicao > 0 && posicao <=3 ){
+        tipoAlimentoCarrosselAtual.innerHTML = 'as frutas!!';
+    } else if(posicao > 3 && posicao < 7) {
+        tipoAlimentoCarrosselAtual.innerHTML = '';
+        tipoAlimentoCarrosselAtual.innerHTML = 'os legumes!!';
+    } else {
+        tipoAlimentoCarrosselAtual.innerHTML = '';
+        tipoAlimentoCarrosselAtual.innerHTML = 'as verduras!!';
+    }
+}
+
+verificarPosicao()
+
 function proximaExibicao() {
 
     if (posicao == 1) {
@@ -104,6 +122,8 @@ function proximaExibicao() {
 
         posicao = posicao + 1
     }
+
+    verificarPosicao()
 }
 
 
@@ -154,4 +174,6 @@ function anteriorExibicao() {
 
         posicao = 8
     }
+
+    verificarPosicao()
 }
