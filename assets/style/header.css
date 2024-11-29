@@ -49,11 +49,16 @@ li>svg {
 
 #barraLateral{
     display: none;
-    padding-top: 74px;
+    padding-top: 77px;
     background-color: #fff281;
     margin: 0 auto;
     text-align: center;
     transition: .9s;
+}
+
+#barraLateral p{
+    border-top: 1px solid black;
+    padding: 5px 0;
 }
 
 #barraLateral a{
