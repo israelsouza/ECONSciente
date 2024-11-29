@@ -1,3 +1,8 @@
+
+.semEstiloAncora{
+    color: white;
+}
+
 .rodape {
     display: flex;
     justify-content: space-around;
@@ -16,7 +21,6 @@
     width: 800px;
     height: 800px;
     padding-top: 20px;
-    
 }
 
 .rodape div.icones-rodape img:first-child {
