@@ -1,77 +1,105 @@
-/* COMETÁRIOS IMPORTANTES */
+const blocosDeQuestoes = document.querySelectorAll('[id^="blocoQuestao"]');
+const inputs = document.querySelectorAll('input');
+const valor = Array.from(inputs).map(input => input.value);
+var pontosUsuario = 0;
+var questaoAtual = 0;
+var valorSelecionado = null;
 
-// todos inputs DO BLOCO para validações
-// os 4 campos do bloco atual estão vazios
-// o campo clicado é o correto (SOMAR)
-
-
-
-/* TODAS VARIAVEIS  E  CAPTURAS */
-
-
-// captura todas divs que possuem o trecho em comum e coloca em um Array
-const question = document.querySelectorAll('div[id^="blocoQuestao"]');
-const alternativa = document.getElementsByTagName('input')
-const telaDeResultado = document.getElementById('resultado')
-
-var pontos = 0;
-var contador = 0;                       // bloco de questão atual.
-var limiteContador = question.length;
-
-
-/* TODAS AS FUNÇOES */
 function proximaQuestao() {
-    // primeiro validar se os imputs do bloco estão todos vazios
-    // se estiverem, dar ERRO, senão segue o fluxo
 
-    validarAlternativaEmBranco();
-    console.log('eu entro aqui?')
-
-    for (var i = 0; i < alternativa.length; i++) {
-        if(alternativa[i].value == 1 && alternativa[i].checked) {
-            console.log(alternativa[i].value);
-            somar();
-            alterandoQuestao();
-        }
+    if (validarQuestaoVazia()) {
+        verificarValorAlternativaSelecionada()
+        somarPontos()
+        exibirProximaQuestao()
     }
 
 }
 
-var valorCasaInicial = 0; // 4  8   12  16
-var valorcasFinal = 3;  // 7    11  15  19
-
-function validarAlternativaEmBranco(){
-    // ter o bloco atual e alternativas desse bloco
-
-    if (contador == 0) {
-        for (let i = valorCasaInicial; i < valorcasFinal; i++) {
-        }
-
-        alt01 = alternativa[valorCasaInicial]
-        alt02 = alternativa[valorCasaInicial+1]
-        alt03 = alternativa[valorCasaInicial+2]
-        alt04 = alternativa[valorCasaInicial+3]
-
-        if (alt01.checked == false && alt02.checked == false && alt03.checked == false && alt04.checked == false ) {
-            alert('selecione alguma alternativa')
-            return break;
-        } else{
-            valorCasaInicial = valorCasaInicial + 4;
-        }
+function validarQuestaoVazia() {
+    const blocoAtual = blocosDeQuestoes[questaoAtual];
+    const alternativas = Array.from(inputs).slice(questaoAtual * 4, questaoAtual * 4 + 4);
+    const algumaSelecionada = alternativas.some(input => input.checked);
+    if (!algumaSelecionada) {
+        alert(`Por favor, selecione uma alternativa para a questão ${questaoAtual + 1}`);
+        return false;
     }
+    return true;
 }
 
-function alterandoQuestao(){
-    if ( contador != (limiteContador - 1) ) {
-        question[contador].style.display = 'none';
-        contador = contador + 1;
-        question[contador].style.display = 'block';
+function verificarValorAlternativaSelecionada() {
+    const alternativas = Array.from(inputs).slice(questaoAtual * 4, questaoAtual * 4 + 4);
+    let posicaoSelecionada = null;
+
+    alternativas.forEach((input, index) => {
+        if (input.checked) {
+            valorSelecionado = input.value;
+            posicaoSelecionada = index + 1;
+        }
+    });
+
+}
+
+function somarPontos() {
+    valorSelecionado == 1 ? pontosUsuario++ : pontosUsuario = pontosUsuario + 0;
+}
+
+function exibirMensaguemComPontuacao(nameUser) {
+
+
+    if (pontosUsuario < 5) {
+        return mensagem = 'Não desanime, ' + nameUser + '. Continue praticando e você melhorará!';
+    } else if (pontosUsuario < 7) {
+        return mensagem = 'Bom trabalho, ' + nameUser + '! Você teve um bom desempenho.';
+    } else if (pontosUsuario < 11) {
+        return mensagem = 'Parabéns, ' + nameUser + '! Você teve um desempenho excelente!';
     } else {
-        question[contador].style.display = 'none';
-        telaDeResultado.style.display = 'block'
+        return mensagem = 'Erro ao processar a sua pontuação, tente novamente, por favor.';
     }
 }
 
-function somar() {
-    pontos = pontos + 1;
+function exibirProximaQuestao() {
+    const blocoAtual = blocosDeQuestoes[questaoAtual];
+    blocoAtual.style.display = 'none';
+
+    questaoAtual++;
+
+    if (questaoAtual < blocosDeQuestoes.length) {
+        const proximoBloco = blocosDeQuestoes[questaoAtual];
+        proximoBloco.style.display = 'block';
+    } else {
+
+        exibirTelaDeResultado()
+
+    }
+}
+
+function exibirTelaDeResultado() {
+    var nome = prompt('Digite o seu nome.')
+    var mensagem = ''
+    console.log(nome)
+
+    mensagemASerApresentada = exibirMensaguemComPontuacao(nome)
+
+    document.getElementById('tituloInicial').style.display = 'none'
+    telaDeResultado = document.getElementById('resultado')
+    telaDeResultado.style.display = 'block';
+
+    telaDeResultado.innerHTML = `
+            <div>
+                <h1>
+                    Meus parabéns, ${nome}. Você chegou até o final!!!
+                </h1>
+            </div>
+            <div class="outer-div">
+                <div class="inner-div">
+                    <p>Meus parabéns ${nome}, você chegou até o final!!</p>
+                    <p>Sua pontuação foi ${pontosUsuario}/10</p>
+                    <p>${mensagemASerApresentada}</p>
+                </div>      
+            </div>
+            <div>
+                <span>Quer tentar novamente? <a href="" target="">Sim</a>
+            </div>
+    `;
+
 }

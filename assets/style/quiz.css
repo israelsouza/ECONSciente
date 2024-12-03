@@ -98,13 +98,8 @@ main div p {
     padding: 5px 0;
     margin-bottom: 20px;
     font-size: 20px;
-    transition: .8s;
 }
 
-main div p:hover{
-    transition: .4s;
-    border-bottom: 2px solid;
-}
 
 .alternativas {
     max-width: 850px;
