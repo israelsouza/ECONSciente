@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="./assets/style/header.css">
+    <link rel="stylesheet" href="./assets/style/quiz.css">
+    <link rel="stylesheet" href="./assets/style/rodape.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <a href="./index.html"><img src="./assets/img/ECONSv2.png" alt=""></a>
+        </div>
+
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Início</a></li>
+                    <li><a href="./artigo.html">Artigos</a></li>
+                    <li><a href="./feedback.html">Feedback</a></li>
+                    <li class="menu-hamb">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" id="menu-hamb"
+                            viewBox="0 0 50 50" onclick="mostrarBarraLateral()">
+                            <path
+                                d="M 5 8 A 2.0002 2.0002 0 1 0 5 12 L 45 12 A 2.0002 2.0002 0 1 0 45 8 L 5 8 z M 5 23 A 2.0002 2.0002 0 1 0 5 27 L 45 27 A 2.0002 2.0002 0 1 0 45 23 L 5 23 z M 5 38 A 2.0002 2.0002 0 1 0 5 42 L 45 42 A 2.0002 2.0002 0 1 0 45 38 L 5 38 z">
+                            </path>
+                        </svg>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <aside id="barraLateral">
+        <nav>
+            <p>Veja nosso catálogo completo de</p>
+            <ol>
+                <a href="./frutas.html" target="_self"><li>Frutas</li></a>
+                <a href="./legumes.html" target="_self"><li>Legumes</li></a>
+                <a href="./verduras.html" target="_self"><li>Verduras</li></a>
+                
+            </ol>
+        </nav>
+    </aside>
+
+    <main>
+
+        <div id="tituloInicial">
+            <h1 class="txt-center">Teste seus conhecimentos sobre concervação correta de alimentos</h1>
+        </div>
+
+        <div class="display_block" id="blocoQuestao01">
+            <div class="imagem-questao"></div>
+
+            <h3 class="txt-center">1. Qual a maneira correta de conservar hortaliças, como alface e coentro?</h3>
+            <div class="alternativas">
+                <p>
+                    <input type="radio" value="0" name="questao" >Guardar diretamente na
+                    geladeira, sem lavar e sem proteger.
+                </p>
+
+                <p>
+                    <input type="radio" value="1" name="questao" >Lavar, secar bem e armazenar
+                    em um pote hermético como papel
+                    toalha.
+                </p>
+
+                <p>
+                    <input type="radio" value="0" name="questao" >Congelar logo após a compra
+                    para mantê-las frescas por mais
+                    tempo.
+                </p>
+
+                <p>
+                    <input type="radio" value="0" name="questao" >Deixar fora da geladeira, em
+                    um local seco e arejado.
+                </p>
+
+            </div>
+
+            <div class="centralizar">
+                <button onclick="proximaQuestao()">Enviar</button>
+            </div>
+
+
+        </div>
+
+        <div class="display_none" id="blocoQuestao02">
+            <div class="imagem-questao"></div>
+
+            <h3 class="txt-center">2. Qual a maneira correta de conservar batatas? </h3>
+            <div class="alternativas">
+                <p>
+                    <input type="radio" value="0" name="questao">
+                    Guardar na geladeira para manter a umidade.
+                </p>
+
+                <p>
+                    <input type="radio" value="1" name="questao">
+                    Armazenar em local fresco, seco e escuro.
+                </p> <!-- CORRETA -->
+
+                <p>
+                    <input type="radio" value="0" name="questao">
+                    Congelar logo após a compra.
+
+                </p>
+                <P>
+                    <input type="radio" value="0" name="questao">
+                    Deixar exposta ao sol para manter firme.
+
+                </P>
+            </div>
+
+            <div class="centralizar">
+                <button onclick="proximaQuestao()">Enviar</button>
+            </div>
+
+        </div>
+
+        <div class="display_none" id="blocoQuestao03">
+            <div class="imagem-questao"></div>
+
+            <h3 class="txt-center">3. Como conservar cenouras para que durem mais tempo?</h3>
+            <div class="alternativas">
+                <p>
+                    <input type="radio" value="1" name="questao">
+                    Lavar, secar bem e guardar na geladeira em saco plástico perfurado.
+                </p>
+
+                <p>
+                    <input type="radio" value="0" name="questao">
+                    Armazenar em local seco e quente.
+                </p>
+
+                <p>
+                    <input type="radio" value="0" name="questao">
+                    Cortar em pedaços e deixar em temperatura ambiente.
+
+                </p>
+                <P>
+                    <input type="radio" value="0" name="questao">
+                    Congelar imediatamente após lavar.
+
+                </P>
+
+            </div>
+
+            <div class="centralizar">
+                <button onclick="proximaQuestao()">Enviar</button>
+            </div>
+
+        </div>
+
+        <div class="display_none" id="blocoQuestao04">
+            <div class="imagem-questao"></div>
+
+            <h3 class="txt-center">4. Qual é a melhor forma de armazenar abobrinhas?</h3>
+            <div class="alternativas">
+
+                <p>
+                    <input type="radio" value="0" name="questao">
+                    Deixar em temperatura ambiente até consumir.
+                </p>
+
+                <p>
+                    <input type="radio" value="1" name="questao">
+                    Guardar na geladeira em saco plástico sem lavar.
+                </p>
+
+                <p>
+                    <input type="radio" value="0" name="questao">
+                    Congelar logo após a compra.
+                </p>
+
+                <p>
+                    <input type="radio" value="0" name="questao">
+                    Lavar e secar, deixando em local arejado.
+                </p>
+
+            </div>
+
+            <div class="centralizar">
+                <button onclick="proximaQuestao()">Enviar</button>
+            </div>
+
+        </div>
+
+        <div class="display_none" id="blocoQuestao05">
+            <div class="imagem-questao"></div>
+
+            <h3 class="txt-center">5. Como conservar bananas para evitar que amadureçam muito rápido?</h3>
+            <div class="alternativas">
+
+                <p>
+                    <input type="radio" value="0" name="questao">
+                    Guardar na geladeira.
+                </p>
+
+                <p>
+                    <input type="radio" value="0" name="questao">
+                    Congelar quando começarem a amadurecer.
+                </p>
+
+                <p>
+                    <input type="radio" value="0" name="questao">
+                    Lavar e deixar na geladeira.
+                </p>
+
+                <p>
+                    <input type="radio" value="1" name="questao">
+                    Manter em temperatura ambiente, penduradas ou separadas das demais frutas.
+                </p>
+            </div>
+
+            <div class="centralizar">
+                <button onclick="proximaQuestao()">Enviar</button>
+            </div>
+
+        </div>
+
+        <div class="display_none" id="blocoQuestao06">
+            <div class="imagem-questao"></div>
+
+            <h3 class="txt-center">6. Qual a maneira correta de armazenar morangos?</h3>
+            <div class="alternativas">
+
+                <p>
+                    <input type="radio" value="0" name="questao">
+                    Lavar e guardar na geladeira em recipiente aberto.
+                </p>
+
+                <p>
+                    <input type="radio" value="0" name="questao">
+                    Congelar imediatamente após a compra.
+                </p>
+
+                <p>
+                    <input type="radio" value="1" name="questao">
+                    Guardar na geladeira sem lavar, em um pote com papel toalha.
+                </p>
+
+                <p>
+                    <input type="radio" value="0" name="questao">
+                    Deixar em temperatura ambiente até consumir.
+                </p>
+            </div>
+
+            <div class="centralizar">
+                <button onclick="proximaQuestao()">Enviar</button>
+            </div>
+
+        </div>
+
+        <div class="display_none" id="blocoQuestao07">
+            <div class="imagem-questao"></div>
+
+            <h3 class="txt-center">7. Como conservar maçãs por mais tempo</h3>
+            <div class="alternativas">
+
+                <p>
+                    <input type="radio" value="1" name="questao">
+                    Deixar em local fresco e seco fora da geladeira.
+                </p>
+
+                <p>
+                    <input type="radio" value="0" name="questao">
+                    Armazenar na geladeira dentro de um saco plástico fechado.
+                </p>
+
+                <p>
+                    <input type="radio" value="0" name="questao">
+                    Lavar e secar antes de guardar.
+                </p>
+
+                <p>
+                    <input type="radio" value="0" name="questao">
+                    Congelar logo após a compra.
+                </p>
+            </div>
+
+            <div class="centralizar">
+                <button onclick="proximaQuestao()">Enviar</button>
+            </div>
+
+        </div>
+
+        <div class="display_none" id="blocoQuestao08">
+            <div class="imagem-questao"></div>
+
+            <h3 class="txt-center">8. Como conservar espinafre fresco?</h3>
+            <div class="alternativas">
+
+                <p>
+                    <input type="radio" value="0" name="questao">
+                    Manter em temperatura ambiente até consumir.
+                </p>
+
+                <p>
+                    <input type="radio" value="0" name="questao">
+                    Congelar logo após a compra.
+                </p>
+
+                <p>
+                    <input type="radio" value="0" name="questao">
+                    Deixar em local arejado fora da geladeira.
+                </p>
+
+                <p>
+                    <input type="radio" value="1" name="questao">
+                    Lavar, secar e guardar em um saco plástico com papel toalha na geladeira.
+                </p>
+            </div>
+
+            <div class="centralizar">
+                <button onclick="proximaQuestao()">Enviar</button>
+            </div>
+
+        </div>
+
+        <div class="display_none" id="blocoQuestao09">
+            <div class="imagem-questao"></div>
+
+            <h3 class="txt-center">9. Qual a maneira correta de armazenar couve?</h3>
+            <div class="alternativas">
+
+                <p>
+                    <input type="radio" value="0" name="questao">
+                    Congelar imediatamente após a compra.
+                </p>
+
+                <p>
+                    <input type="radio" value="1" name="questao">
+                    Guardar na geladeira em saco plástico bem fechado.
+                </p>
+
+                <p>
+                    <input type="radio" value="0" name="questao">
+                    Deixar em local fresco e seco fora da geladeira.
+                </p>
+
+                <p>
+                    <input type="radio" value="0" name="questao">
+                    Lavar e guardar diretamente na geladeira sem secar.
+                </p>
+            </div>
+
+            <div class="centralizar">
+                <button onclick="proximaQuestao()">Enviar</button>
+            </div>
+
+        </div>
+
+        <div class="display_none" id="blocoQuestao10">
+            <div class="imagem-questao"></div>
+
+            <h3 class="txt-center">10. Como conservar rúcula para que dure mais?</h3>
+            <div class="alternativas">
+
+                <p>
+                    <input type="radio" value="1" name="questao">
+                    Lavar, secar e armazenar na geladeira em recipiente fechado com papel toalha.
+                </p>
+
+                <p>
+                    <input type="radio" value="0" name="questao">
+                    Deixar em temperatura ambiente.
+                </p>
+
+                <p>
+                    <input type="radio" value="0" name="questao">
+                    Congelar logo após a compra.
+                </p>
+
+                <p>
+                    <input type="radio" value="0" name="questao">
+                    Lavar e guardar sem secar na geladeira.
+                </p>
+            </div>
+
+            <div class="centralizar">
+                <button onclick="proximaQuestao()">Enviar</button>
+            </div>
+
+        </div>
+
+        <div id="resultado" class="display_none txt-center">
+            
+
+            
+
+
+
+
+        </div>
+
+        <!-- DIV COM O PERCENTUAL, MENSAGEM DINAMICA CONFORME A PORCENTAGEM PELO JS , 
+         
+        EXIBIR UM BOTTAO PARA PROXIMA QUESTÃO;
+        
+        EXIBIR  NO FINAL, 
+        
+        -->
+
+    </main>
+
+    <script src="./assets/js/quiz.js"></script>
+    <script src="./assets/js/exibirMenu.js"></script>
+</body>
+
+</html>

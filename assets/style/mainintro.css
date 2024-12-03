@@ -1,0 +1,79 @@
+.display_block {
+    display: block;
+}
+
+.display_none {
+    display: block;
+}
+
+.intro {
+    background-image: url(./../img/frutas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+}
+
+.intro-info {
+    color: white;
+    font-size: 1.5em;
+    z-index: 0;
+}
+
+.intro-info h1 {
+    padding-top: 10%;
+    margin-bottom: 50px;
+    margin-left: 3%;
+}
+
+.intro-info p{
+    margin-bottom: 50px;
+    max-width: 900px;
+    margin-left: 3%;
+}
+
+p#missao{
+    max-width: 750px;
+}
+
+.intro-info button {
+    margin-left: 3%;
+    width: 300px;
+    height: 60px;
+    background-color: #51b441;
+    border: 0;
+    transition: .8s;
+}
+
+.intro-info button:hover {
+    cursor: pointer;
+    transition: .8s;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+#intro-visao{
+    padding-top: 4px;
+}
+
+#intro-btn-navegacao {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+
+    & svg {
+        margin: 0 20px;
+        border: none;
+        border-radius: 50%;
+        background-color: white;
+        height: 40px;
+        width: 40px;
+    }
+
+    & button:hover {
+        cursor: pointer;
+    }
+}
+

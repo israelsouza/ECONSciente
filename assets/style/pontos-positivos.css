@@ -1,0 +1,26 @@
+.pontos-positivos {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.box {
+    padding: 80px 0;
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    text-align: justify;
+}
+
+.box h3 {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.box-content {
+    width: 90%;
+    height: 220px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+}

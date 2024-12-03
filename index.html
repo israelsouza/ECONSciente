@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECONS</title>
+    <link rel="stylesheet" href="./assets/style/mainintro.css">
+    <link rel="stylesheet" href="./assets/style/pontos-positivos.css">
+    <link rel="stylesheet" href="./assets/style/carrossel.css">
+    <link rel="stylesheet" href="./assets/style/apresentacao.css">
+    <link rel="stylesheet" href="./assets/style/sessao-catalogo.css">
+    <link rel="stylesheet" href="./assets/style/header.css">
+    <link rel="stylesheet" href="./assets/style/rodape.css">
+
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <a href="./index.html"><img src="./assets/img/ECONSv2.png" alt=""></a>
+        </div>
+
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="./artigo.html">Artigos</a></li>
+                    <li><a href="./quiz.html">Quiz</a></li>
+                    <li><a href="./feedback.html">Feedback</a></li>
+
+                    <li class="menu-hamb">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" id="menu-hamb" viewBox="0 0 50 50"
+                            onclick="mostrarBarraLateral()">
+                            <path
+                                d="M 5 8 A 2.0002 2.0002 0 1 0 5 12 L 45 12 A 2.0002 2.0002 0 1 0 45 8 L 5 8 z M 5 23 A 2.0002 2.0002 0 1 0 5 27 L 45 27 A 2.0002 2.0002 0 1 0 45 23 L 5 23 z M 5 38 A 2.0002 2.0002 0 1 0 5 42 L 45 42 A 2.0002 2.0002 0 1 0 45 38 L 5 38 z">
+                            </path>
+                        </svg>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <aside id="barraLateral">
+        <nav>
+            <p>Veja nosso catálogo completo de</p>
+            <ol>
+                <a href="./frutas.html" target="_self">
+                    <li>Frutas</li>
+                </a>
+                <a href="./legumes.html" target="_self">
+                    <li>Legumes</li>
+                </a>
+                <a href="./verduras.html" target="_self">
+                    <li>Verduras</li>
+                </a>
+
+            </ol>
+        </nav>
+    </aside>
+
+
+
+    <main class="intro">
+        <div class="intro-info block" id="intro-missao">
+            <h1>Nossa Missão</h1>
+            <p id="missao">
+                Aqui no ECOnsciente, você encontrará informações e dicas práticas de armazenamento de frutas, legumes e
+                nones, e para testar seus conhecimentos participe dos nossos quizzes e veja o quanto você realmente
+                sabe. Nosso objetivo é conscientizar e educar a população sobre a importância de reduzir o desperdício
+                de alimentos, acreditamos que pequenas mudanças em nossos hábitos diários podem ter um grande impacto.
+            </p>
+            <a href="artigo.html" target="_blank"><button>ARTIGO PRINCIPAL</button></a>
+        </div>
+
+        <div class="intro-info none" id="intro-visao">
+            <h1>O que pretendemos?</h1>
+            <p id="pretencao">
+                Nosso propósito é incentivar o consumo consciente e ajudar a reduzir o desperdício de alimentos. Para
+                isso, reunimos informações essenciais sobre como manusear, armazenar, aproveitar e descartar frutas,
+                legumes e verduras. Visamos resolver a fragmentação de dados espalhados pela internet, oferecendo
+                conteúdos de fácil acesso e compreensão. Com isso, você pode aprender sobre técnicas de preservação,
+                condições ideais de armazenamento, como identificar alimentos estragados, aproveitar ao máximo cada
+                produto e descartar de forma consciente. Além disso, incluimos um quiz interativo que permite você
+                testar e aprimorar os seus conhecimentos de uma forma divertida.
+            </p>
+        </div>
+
+        <!-- B O T O E S -->
+        <div id="intro-btn-navegacao">
+            <svg class="none" version="1.1" id="icon1" xmlns="http://www.w3.org/2000/svg" x="0" y="0"
+                viewBox="0 0 128 128" style="enable-background:new 0 0 128 128" xml:space="preserve"
+                onclick="mudarFundoPrincipal(1)">
+                <path class="st2"
+                    d="M64 .3C28.7.3 0 28.8 0 64s28.7 63.7 64 63.7 64-28.5 64-63.7S99.3.3 64 .3zm0 121C32.2 121.3 6.4 95.7 6.4 64 6.4 32.3 32.2 6.7 64 6.7s57.6 25.7 57.6 57.3c0 31.7-25.8 57.3-57.6 57.3zm22.4-63.7H57.6l12.3-15.2c0-2.2-1.8-3.9-3.9-3.9h-7.1L32 64l26.8 25.5H66c2.2 0 3.9-1.8 3.9-3.9L57.1 69.9h28.6c2.2 0 3.9-1.8 3.9-3.9v-4c0-2.1-1-4.4-3.2-4.4z"
+                    id="left_1_" />
+            </svg>
+            <svg version="1.1" id="icon2" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128"
+                onclick="mudarFundoPrincipal(2)" style="enable-background:new 0 0 128 128" xml:space="preserve">
+                <style>
+                    .st0 {
+                        display: none
+                    }
+
+                    .st1 {
+                        display: inline
+                    }
+
+                    .st2 {
+                        fill: #0a0a0a
+                    }
+                </style>
+                <g id="row2_1_">
+                    <g id="_x33__3_">
+                        <path class="st2"
+                            d="M64 .3C28.8.3.3 28.8.3 64s28.5 63.7 63.7 63.7 63.7-28.5 63.7-63.7S99.2.3 64 .3zm0 121C32.3 121.3 6.7 95.7 6.7 64 6.7 32.3 32.3 6.7 64 6.7c31.7 0 57.3 25.7 57.3 57.3 0 31.7-25.6 57.3-57.3 57.3zm-2-82.8c-2.2 0-3.9 1.8-3.9 3.9l12.2 15.2H41.7c-2.2 0-3.2 2.2-3.2 4.4v4c0 2.2 1.8 3.9 3.9 3.9h28.4L58.1 85.6c0 2.2 1.8 3.9 3.9 3.9h7.1L95.8 64 69.1 38.5H62z"
+                            id="right_1_" />
+                    </g>
+                </g>
+            </svg>
+        </div>
+    </main>
+
+    <h2 class="center">
+        Veja um pouco sobre <span id="alimentoAtual"></span>
+    </h2>
+
+    <section id="carrossel">
+
+        <div>
+            <button class="arrow-carrossel esq" onclick="anteriorExibicao()"></button>
+        </div>
+
+        <!-- FRUTAS -->
+
+        <!-- 01 - 03 -->
+        <div class="flv" id="item-carrossel-01">
+            <div class="flv-image" id="maca"></div>
+            <h3>MAÇÃ</h3>
+            <p>
+                A maçã contém vitamina C, que fortalece o sistema imunológico e ajuda na digestão.
+            </p>
+        </div>
+
+        <div class="flv" id="item-carrossel-02">
+            <div class="flv-image" id="pera"></div>
+            <h3>PERA</h3>
+            <p>
+                A pera tem uma textura macia e é rica em fibras. Ela é cultivada há mais de 3.000 anos.
+            </p>
+        </div>
+
+        <div class="flv" id="item-carrossel-03">
+            <div class="flv-image" id="banana"></div>
+            <h3>BANANA</h3>
+            <p>
+                A banana é rica em potássio e ajuda na função muscular. Ela é cultivada em todo o mundo.
+            </p>
+        </div>
+
+
+
+
+
+        <div class="flv none" id="item-carrossel-04">
+            <div class="flv-image" id="kiwi"></div>
+            <h3>KIWI</h3>
+            <p>O kiwi é uma excelente fonte de vitamina C, ajudando a fortalecer o sistema imunológico.</p>
+        </div>
+
+        <div class="flv none" id="item-carrossel-05">
+            <div class="flv-image" id="manga"></div>
+            <h3>MANGA</h3>
+            <p>A manga é rica em antioxidantes e vitamina A, beneficiando a saúde da pele e visão.</p>
+        </div>
+
+        <div class="flv none" id="item-carrossel-06">
+            <div class="flv-image" id="melancia"></div>
+            <h3>MELANCIA</h3>
+            <p>
+                A melancia é composta por 90% de água e é refrescante. Ela tem origens na África.
+            </p>
+        </div>
+
+
+
+
+
+        <div class="flv none" id="item-carrossel-07">
+            <div class="flv-image" id="pessego"></div>
+            <h3>PÊSSEGO</h3>
+            <p>
+                O pêssego é rico em vitaminas A e C e tem origem na China.
+            </p>
+        </div>
+
+        <div class="flv none" id="item-carrossel-08">
+            <div class="flv-image" id="abacaxi"></div>
+            <h3>ABACAXI</h3>
+            <p>O abacaxi é rico em bromelina, uma enzima que ajuda na digestão e alivia inflamações.</p>
+        </div>
+
+        <div class="flv none" id="item-carrossel-09">
+            <div class="flv-image" id="laranja"></div>
+            <h3>LARANJA</h3>
+            <p>A laranja é rica em vitamina C e pode ser usada para extrair óleos essenciais de sua casca.</p>
+        </div>
+
+        <!-- LEGUMES -->
+
+        <div class="flv none" id="item-carrossel-10">
+            <div class="flv-image" id="pepino"></div>
+            <h3>PEPINO</h3>
+            <p>
+                O pepino é 95% água, ajudando na hidratação. Ele pertence à família das cucurbitáceas.
+            </p>
+        </div>
+
+        <div class="flv none" id="item-carrossel-11">
+            <div class="flv-image" id="abobora"></div>
+            <h3>ABÓBORA</h3>
+            <p>
+                A abóbora é rica em vitamina A e antioxidantes, além de pertencer à família das cucurbitáceas.
+            </p>
+        </div>
+
+        <div class="flv none" id="item-carrossel-12">
+            <div class="flv-image maca" id="batata"></div>
+            <h3>BATATA</h3>
+            <p>
+                A batata é rica em carboidratos e uma das hortaliças mais consumidas no mundo.
+            </p>
+        </div>
+
+
+
+
+
+        <div class="flv none" id="item-carrossel-13">
+            <div class="flv-image" id="cebola"></div>
+            <h3>CEBOLA</h3>
+            <p>
+                A cebola é rica em antioxidantes e compostos que ajudam a fortalecer o sistema imunológico.
+            </p>
+        </div>
+
+        <div class="flv none" id="item-carrossel-14">
+            <div class="flv-image" id="beterraba"></div>
+            <h3>BETERRABA</h3>
+            <p>
+                A beterraba é rica em ferro e antioxidantes, ajudando a melhorar a circulação sanguínea.
+            </p>
+        </div>
+
+        <div class="flv none" id="item-carrossel-15">
+            <div class="flv-image maca" id="aspargo"></div>
+            <h3>ASPARGO</h3>
+            <p>
+                O aspargo é rico em vitaminas A, C e K, além de ser um excelente aliado para a saúde digestiva.
+            </p>
+        </div>
+
+
+
+
+
+        <div class="flv none" id="item-carrossel-16">
+            <div class="flv-image" id="rabanete"></div>
+            <h3>RABANETE</h3>
+            <p>
+                O rabanete é rico em vitamina C e ajuda na digestão e desintoxicação.
+            </p>
+        </div>
+
+        <div class="flv none" id="item-carrossel-17">
+            <div class="flv-image" id="ervilha"></div>
+            <h3>ERVILHA</h3>
+            <p>
+                A ervilha é rica em proteínas, fibras e vitaminas, sendo uma ótima opção para dietas equilibradas.
+            </p>
+        </div>
+
+        <div class="flv none" id="item-carrossel-18">
+            <div class="flv-image" id="berinjela"></div>
+            <h3>BERINJELA</h3>
+            <p>
+                A berinjela é rica em fibras e antioxidantes, ajudando no controle do colesterol.
+            </p>
+        </div>
+
+        <!-- VERDURAS -->
+
+        <div class="flv none" id="item-carrossel-19">
+            <div class="flv-image" id="alface"></div>
+            <h3>ALFACE</h3>
+            <p>
+                A alface é rica em água e fibras, ajudando na digestão e na hidratação do corpo.
+            </p>
+        </div>
+
+        <div class="flv none" id="item-carrossel-20">
+            <div class="flv-image" id="couve"></div>
+            <h3>COUVE</h3>
+            <p>
+                A couve é rica em vitaminas A, C e K, além de ser excelente para a saúde óssea e digestiva.
+            </p>
+        </div>
+
+        <div class="flv none" id="item-carrossel-21">
+            <div class="flv-image" id="espinafre"></div>
+            <h3>ESPINAFRE</h3>
+            <p>
+                O espinafre é rico em ferro e antioxidantes, fortalecendo o sistema imunológico.
+            </p>
+        </div>
+
+
+
+
+        <div class="flv none" id="item-carrossel-22">
+            <div class="flv-image" id="brocolis"></div>
+            <h3>BRÓCOLIS</h3>
+            <p>
+                O brócolis é rico em vitamina C e antioxidantes, bom para o coração e imunidade.
+            </p>
+        </div>
+
+        <div class="flv none" id="item-carrossel-23">
+            <div class="flv-image" id="agriao"></div>
+            <h3>AGRIÃO</h3>
+            <p>
+                O agrião é rico em vitamina C e antioxidantes, beneficiando a pele e imunidade.
+            </p>
+        </div>
+
+        <div class="flv none" id="item-carrossel-24">
+            <div class="flv-image" id="repolho"></div>
+            <h3>REPOLHO</h3>
+            <p>
+                O repolho é rico em fibras e vitamina C, ajudando na digestão e imunidade.
+            </p>
+        </div>
+
+        <div class="flv none" id="item-carrossel-25">
+            <div class="flv-image" id="acelga"></div>
+            <h3>ACELGA</h3>
+            <p>
+                A acelga é rica em vitaminas A, C e K, além de cálcio e ferro, ajudando os ossos.
+            </p>
+        </div>
+
+        <div class="flv none" id="item-carrossel-26">
+            <div class="flv-image" id="pimentao"></div>
+            <h3>ORÉGANO </h3>
+            <p>
+                O orégano tem antioxidantes e propriedades anti-inflamatórias, ajudando na digestão.
+            </p>
+        </div>
+
+        <div class="flv none" id="item-carrossel-27">
+            <div class="flv-image" id="coentro"></div>
+            <h3>COENTRO</h3>
+            <p>
+                O coentro é rico em antioxidantes e vitaminas A e C, auxiliando na digestão e detox.
+            </p>
+        </div>
+
+        <div>
+            <button class="arrow-carrossel dir" onclick="proximaExibicao()"></button>
+        </div>
+
+    </section>
+
+    <!-- ALGO PARA SEPARAR AS SESSÕES -->
+    <hr>
+
+    <h2 class="center">
+        Benefícios que nós proporcionamos
+    </h2>
+
+    <section>
+
+        <div class="pontos-positivos">
+            <div class="box">
+                <div class="box-content">
+                    <img src="./assets/img/index/watermelon-breakfast-svgrepo-com.png" width="200px" alt="" srcset="">
+                </div>
+                <h3>Preservação de nutrientes e sabor</h3>
+                <p>Armazenar e conservar os alimentos de forma adequada evita a perda de nutrientes e mantém o sabor
+                    natural dos produtos, promovendo uma alimentação mais nutritiva e saborosa.</p>
+            </div>
+
+            <div class="box">
+                <div class="box-content"><img src="./assets/img/index/doctor-human-svgrepo-com.png" width="200px" alt=""
+                        srcset=""></div>
+                <h3>Diminuição dos custos de saúde</h3>
+                <p>Uma dieta rica em frutas e verduras pode reduzir gastos com saúde a longo prazo, já que uma
+                    alimentação saudável previne doenças e diminui despesas com tratamentos.</p>
+            </div>
+
+            <div class="box">
+                <div class="box-content ">
+                    <img src="./assets/img/index/basket-picnic-svgrepo-com.png" width="200px" alt="" srcset="">
+                </div>
+                <h3>Prolongamento da vida útil dos alimentos</h3>
+                <p>Com orientações sobre armazenamento correto, o projeto ajuda as pessoas a manterem frutas, legumes e
+                    verduras frescos por mais tempo, reduzindo a necessidade de compras frequentes e o desperdício
+                    desnecessário.</p>
+            </div>
+
+        </div>
+
+
+        <div class="pontos-positivos">
+            <div class="box">
+                <div class="box-content"><img src="./assets/img/index/economy-svgrepo-com.png" width="200px" alt=""
+                        srcset=""></div>
+                <h3>Economia</h3>
+                <p>Ao adotar práticas sustentáveis, as famílias podem economizar em suas compras, aproveitando melhor os
+                    alimentos e reduzindo a necessidade de reposição constante.</p>
+            </div>
+
+            <div class="box">
+                <div class="box-content ">
+                    <img src="./assets/img/index/chart-column-low-svgrepo-com.png" width="200px" alt="" srcset="">
+                </div>
+                <h3>Redução do impacto ambiental do descarte</h3>
+                <p>Orientações sobre o descarte sustentável ajudam a diminuir a quantidade de lixo orgânico enviada para
+                    aterros e incentivam a compostagem caseira, o que reduz a emissão de gases de efeito estufa e
+                    enriquece o solo.</p>
+            </div>
+
+            <div class="box">
+                <div class="box-content">
+                    <img src="./assets/img/index/enviroment-green-love-planet-save-world-svgrepo-com.png" width="200px"
+                        alt="" srcset="">
+                </div>
+                <h3>Menor emissão de gases do efeito estufa</h3>
+                <p>Com a redução do desperdício de alimentos, há uma diminuição na produção de resíduos orgânicos que,
+                    quando decompostos, emitem gases de efeito estufa. O projeto contribui para minimizar esses impactos
+                    ambientais.</p>
+            </div>
+
+        </div>
+
+
+
+
+
+    </section>
+
+
+    <footer class="rodape">
+
+        <div>
+
+            <div>
+                <div>
+                    Veja mais sobre
+                </div>
+
+                <div class="icones-rodape">
+                    <a href="http://www.instagram.com/ec0ns_" target="_blank" rel="noopener noreferrer"><img
+                            src="assets/img/insta.png" alt=""></a>
+
+                    <a href="https://www.reddit.com/user/Ec0nsciente/" target="_blank"><img src="assets/img/red.png"
+                            alt=""></a>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div>
+            <ul>
+                <li class="fonte-bold">AUTORES </li>
+                <li><a class="semEstiloAncora" href="https://github.com/israelsouza" target="_blank"
+                        rel="noopener noreferrer">Israel de Souza</a> </li>
+                <li><a class="semEstiloAncora" href="https://github.com/Dippshit" target="_blank">Carlos Manoel</a>
+                </li>
+                <li><a class="semEstiloAncora" href="https://github.com/TakiG13" target="_blank">Matheus Gobbi</a> </li>
+                <li><a class="semEstiloAncora" href="https://github.com/RaquelSK" target="_blank">Raquel Souza</a> </li>
+                <li><a class="semEstiloAncora" href="https://github.com/LucianoVitor" target="_blank"
+                        rel="noopener noreferrer">Luciano Rodrigues</a> </li>
+            </ul>
+        </div>
+
+        <div>
+            <ul>
+                <li class="fonte-bold">CARGOS</li>
+                <li>Desenvolvedor</li>
+                <li>Designer</li>
+                <li>Pesquisador</li>
+                <li>Pesquisador</li>
+                <li>Pesquisador</li>
+            </ul>
+        </div>
+
+
+    </footer>
+
+
+    <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/exibirMenu.js"></script>
+</body>
+
+</html>

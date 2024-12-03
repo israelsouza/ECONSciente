@@ -1,0 +1,12 @@
+.container-catalogo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-catalogo-itens{
+    padding-top: 100px;
+    margin-top: 50px;
+    background-color: rebeccapurple;
+    width: 250px;
+}
