@@ -7,7 +7,7 @@ O escopo do projeto foi definido para a exibição em dispositivos com largura i
 
 ## Tecnologias envolvidas
 
-O projeto conta com o uso dos pelares do desenvolvimento web front-end (HTML, CSS, JavaScript), a aplicação de Bootstrap v5 para a otimização de algumas páginas e o uso do Figma para gerar um protótipo das telas.
+O projeto conta com o uso dos pilares do desenvolvimento web front-end (HTML, CSS, JavaScript), a aplicação de Bootstrap v5 para a otimização de algumas páginas e o uso do Figma para gerar um protótipo das telas.
 
 
 ### Prints
