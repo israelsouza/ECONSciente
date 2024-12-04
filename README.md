@@ -2,6 +2,8 @@
 
 O projeto surgiu da necessidade de informações centralizadas a respeito de boas práticas de conservação, de manuseio e de aproveitamento de frutas, legumes e verduras. O site, além de concentrar essas informações, também possui um quiz interativo, com uma tela de resultado diferente de acordo com o desempenho do usuário.
 
+O escopo do projeto, no momento, esta disponível para desktops, a responsividade para demais dispositivos sera incrementada em breve.
+
 
 ## Tecnologias envolvidas
 
