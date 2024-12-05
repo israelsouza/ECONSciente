@@ -22,9 +22,9 @@
         <div>
             <nav>
                 <ul>
-                    <li><a href="./index.html">Início</a></li>
-                    <li><a href="./artigo.html">Artigos</a></li>
-                    <li><a href="./feedback.html">Feedback</a></li>
+                    <li class="item-list"><a href="./index.html">Início</a></li>
+                    <li class="item-list"><a href="./artigo.html">Artigos</a></li>
+                    <li class="item-list"><a href="./feedback.html">Feedback</a></li>
                     <li class="menu-hamb">
                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" id="menu-hamb"
                             viewBox="0 0 50 50" onclick="mostrarBarraLateral()">
@@ -41,12 +41,14 @@
 
     <aside id="barraLateral">
         <nav>
-            <p>Veja nosso catálogo completo de</p>
             <ol>
+                <li class="item-list-from-header"><a href="./index.html">Início</a></li>
+                <li class="item-list-from-header"><a href="./artigo.html">Artigos</a></li>
+                <li class="item-list-from-header"><a href="./feedback.html">Feedback</a></li>
+                <p id="veja-catalogo-menu-hamb">Veja nosso catálogo completo de</p>
                 <a href="./frutas.html" target="_self"><li>Frutas</li></a>
                 <a href="./legumes.html" target="_self"><li>Legumes</li></a>
                 <a href="./verduras.html" target="_self"><li>Verduras</li></a>
-                
             </ol>
         </nav>
     </aside>
