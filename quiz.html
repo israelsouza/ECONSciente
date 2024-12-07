@@ -7,6 +7,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz</title>
+
+    <link rel="stylesheet" href="./assets/style/index.css">
     <link rel="stylesheet" href="./assets/style/header.css">
     <link rel="stylesheet" href="./assets/style/quiz.css">
     <link rel="stylesheet" href="./assets/style/rodape.css">
@@ -22,9 +24,9 @@
         <div>
             <nav>
                 <ul>
-                    <li class="item-list"><a href="./index.html">Início</a></li>
-                    <li class="item-list"><a href="./artigo.html">Artigos</a></li>
-                    <li class="item-list"><a href="./feedback.html">Feedback</a></li>
+                    <li class="nav-list-item"><a href="./index.html">Início</a></li>
+                    <li class="nav-list-item"><a href="./artigo.html">Artigos</a></li>
+                    <li class="nav-list-item"><a href="./feedback.html">Feedback</a></li>
                     <li class="menu-hamb">
                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" id="menu-hamb"
                             viewBox="0 0 50 50" onclick="mostrarBarraLateral()">
@@ -42,9 +44,24 @@
     <aside id="barraLateral">
         <nav>
             <ol>
-                <li class="item-list-from-header"><a href="./index.html">Início</a></li>
-                <li class="item-list-from-header"><a href="./artigo.html">Artigos</a></li>
-                <li class="item-list-from-header"><a href="./feedback.html">Feedback</a></li>
+                
+                <a href="./index.html">
+                <li class="nav-list-item-aside">
+                        Início
+                    </li>
+                </a>
+                
+                <a href="./artigo.html">
+                <li class="nav-list-item-aside">
+                        Artigos
+                    </li>
+                </a>
+                
+                <a href="./feedback.html">
+                <li class="nav-list-item-aside">
+                        Feedback
+                    </li>
+                </a>
                 <p id="veja-catalogo-menu-hamb">Veja nosso catálogo completo de</p>
                 <a href="./frutas.html" target="_self"><li>Frutas</li></a>
                 <a href="./legumes.html" target="_self"><li>Legumes</li></a>

@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ECONS</title>
 
+    <link rel="stylesheet" href="./assets/style/index.css">
     <link rel="stylesheet" href="./assets/style/mainintro.css">
     <link rel="stylesheet" href="./assets/style/pontos-positivos.css">
     <link rel="stylesheet" href="./assets/style/carrossel.css">
@@ -27,9 +28,9 @@
         <div>
             <nav>
                 <ul>
-                    <li><a href="./artigo.html">Artigos</a></li>
-                    <li><a href="./quiz.html">Quiz</a></li>
-                    <li><a href="./feedback.html">Feedback</a></li>
+                    <li class="nav-list-item"><a href="./artigo.html">Artigos</a></li>
+                    <li class="nav-list-item"><a href="./quiz.html">Quiz</a></li>
+                    <li class="nav-list-item"><a href="./feedback.html">Feedback</a></li>
 
                     <li class="menu-hamb">
                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" id="menu-hamb" viewBox="0 0 50 50"
@@ -48,8 +49,26 @@
 
     <aside id="barraLateral">
         <nav>
-            <p>Veja nosso catálogo completo de</p>
+            <p id="veja-catalogo-menu-hamb">Veja nosso catálogo completo de</p>
             <ol>
+                
+                <a href="./artigo.html">
+                <li class="nav-list-item-aside">
+                    Artigos
+                    </li>
+                </a>
+                
+                <a href="./quiz.html">
+                <li class="nav-list-item-aside">
+                        Quiz
+                    </li>
+                </a>
+                
+                <a href="./feedback.html">
+                <li class="nav-list-item-aside">
+                        Feedback
+                    </li>
+                </a>
                 <a href="./frutas.html" target="_self">
                     <li>Frutas</li>
                 </a>
@@ -93,7 +112,7 @@
 
         <!-- B O T O E S -->
         <div id="intro-btn-navegacao">
-            <svg class="none" version="1.1" id="icon1" xmlns="http://www.w3.org/2000/svg" x="0" y="0"
+            <svg class="display-none" version="1.1" id="icon1" xmlns="http://www.w3.org/2000/svg" x="0" y="0"
                 viewBox="0 0 128 128" style="enable-background:new 0 0 128 128" xml:space="preserve"
                 onclick="mudarFundoPrincipal(1)">
                 <path class="st2"

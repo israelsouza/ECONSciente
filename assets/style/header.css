@@ -1,7 +1,5 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
+.nav-list-item-aside{
+    display: none;
 }
 
 .header {
@@ -82,4 +80,18 @@ aside#barraLateral ol {
 #barraLateral ol li:hover {
     background-color: #faea54f9;
     transition: .2s;
+}
+
+@media(max-width: 780px){
+    .nav-list-item{
+        display: none;
+    }
+
+    #veja-catalogo-menu-hamb{
+        display: none
+    }
+
+    .nav-list-item-aside{
+        display: block;
+    }
 }
