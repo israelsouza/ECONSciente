@@ -47,11 +47,11 @@ function exibirMensaguemComPontuacao(nameUser) {
 
 
     if (pontosUsuario < 5) {
-        return mensagem = 'Não desanime, ' + nameUser + '. Continue praticando e você melhorará!';
+        return mensagem = 'Não desanime, ' + nameUser + '. Continue praticando e você melhorará! 🥉🥉 <p><iframe src="https://giphy.com/embed/3og0IxUJxtCFRJfXcQ" width="480" height="269" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></p>';
     } else if (pontosUsuario < 7) {
-        return mensagem = 'Bom trabalho, ' + nameUser + '! Você teve um bom desempenho.';
+        return mensagem = 'Bom trabalho, ' + nameUser + '! Você teve um bom desempenho. 🥈🥈 <p><iframe src="https://giphy.com/embed/tIeCLkB8geYtW" width="480" height="379" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></p>';
     } else if (pontosUsuario < 11) {
-        return mensagem = 'Parabéns, ' + nameUser + '! Você teve um desempenho excelente!';
+        return mensagem = 'Parabéns, ' + nameUser + '! Você teve um desempenho excelente! 🥇🥇 <p><iframe src="https://giphy.com/embed/11ISwbgCxEzMyY" width="480" height="360" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></p>';
     } else {
         return mensagem = 'Erro ao processar a sua pontuação, tente novamente, por favor.';
     }
