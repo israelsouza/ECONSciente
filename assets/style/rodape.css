@@ -10,6 +10,7 @@
     background-color: #057b05;
     color: white;
     padding: 20px;
+    margin-top: 100px;
 }
 
 .rodape li {
@@ -33,4 +34,22 @@
 .link-footer a{
     color: white;
     text-decoration: none;
+}
+
+.link-footer p{
+    text-align: center;
+}
+
+@media (max-width: 620px) {
+    footer{
+        font-size: 15px;
+    }
+    
+}
+
+@media (max-width: 450px) {
+    footer{
+        font-size: 12px;
+    }
+    
 }

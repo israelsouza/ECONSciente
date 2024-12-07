@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frutas</title>
 
+    <link rel="stylesheet" href="./assets/style/index.css">
     <link href="./assets/style/bootstrap/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/style/estilo_catalogo.css">
     <link rel="stylesheet" href="./assets/style/header.css">
@@ -25,9 +26,9 @@
         <div>
             <nav>
                 <ul>
-                    <li><a href="./artigo.html">Artigos</a></li>
-                    <li><a href="./quiz.html">Quiz</a></li>
-                    <li><a href="./feedback.html">Feedback</a></li>
+                    <li class="nav-list-item"><a href="./artigo.html">Artigos</a></li>
+                    <li class="nav-list-item"><a href="./quiz.html">Quiz</a></li>
+                    <li class="nav-list-item"><a href="./feedback.html">Feedback</a></li>
                     <li class="menu-hamb">
                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" id="menu-hamb"
                             viewBox="0 0 50 50" onclick="mostrarBarraLateral()">
@@ -44,12 +45,14 @@
 
     <aside id="barraLateral">
         <nav>
-            <p>Veja nosso catálogo completo de</p>
+            <p id="veja-catalogo-menu-hamb">Veja nosso catálogo completo de</p>
             <ol>
+                <a href="./artigo.html"><li class="nav-list-item-aside">Artigos</li></a>
+                <a href="./quiz.html"><li class="nav-list-item-aside">Quiz</li></a>
+                <a href="./feedback.html"><li class="nav-list-item-aside">Feedback</li></a>
                 <a href="./frutas.html" target="_self"><li>Frutas</li></a>
                 <a href="./legumes.html" target="_self"><li>Legumes</li></a>
                 <a href="./verduras.html" target="_self"><li>Verduras</li></a>
-                
             </ol>
         </nav>
     </aside>

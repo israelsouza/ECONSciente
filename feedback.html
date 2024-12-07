@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feedback</title>
     
+    <link rel="stylesheet" href="./assets/style/index.css">
     <link rel="stylesheet" href="./assets/style/header.css">
     <link rel="stylesheet" href="./assets/style/rodape.css">
     <link rel="stylesheet" href="./assets/style/feedback.css">
@@ -25,9 +26,24 @@
         <div>
             <nav>
                 <ul>
-                    <li><a href="./index.html">Início</a></li>
-                    <li><a href="./artigo.html">Artigos</a></li>
-                    <li><a href="./quiz.html">Quiz</a></li>
+                    
+                    <a href="./index.html">
+                    <li class="nav-list-item">
+                            Início
+                        </li>
+                    </a>
+                    
+                    <a href="./artigo.html">
+                    <li class="nav-list-item">
+                            Artigos
+                        </li>
+                    </a>
+                    
+                    <a href="./quiz.html">
+                    <li class="nav-list-item">
+                            Quiz
+                        </li>
+                    </a>
                     <li class="menu-hamb">
                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" id="menu-hamb"
                             viewBox="0 0 50 50" onclick="mostrarBarraLateral()">
@@ -44,8 +60,11 @@
 
     <aside id="barraLateral">
         <nav>
-            <p>Veja nosso catálogo completo de</p>
+            <p id="veja-catalogo-menu-hamb">Veja nosso catálogo completo de</p>
             <ol>
+                <li class="nav-list-item-aside"><a href="./index.html">Início</a></li>
+                <li class="nav-list-item-aside"><a href="./artigo.html">Artigos</a></li>
+                <li class="nav-list-item-aside"><a href="./quiz.html">Quiz</a></li>
                 <a href="./frutas.html" target="_self">
                     <li>Frutas</li>
                 </a>
