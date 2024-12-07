@@ -158,17 +158,8 @@ button {
         max-width: 500px;
     }
 
-    #veja-catalogo-menu-hamb{
-        display: none
-    }
-
-    body aside nav ol .item-list-from-header{
+    body aside nav ol {
         display: block;
-    }
-
-    header div nav ul li.item-list{
-        display: none;
-        background-color: red;
     }
 
     #resultado{
