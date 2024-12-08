@@ -1,8 +1,13 @@
+#section-pontos-positivos{
+    padding-bottom: 50px;
+}
+
 .pontos-positivos {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 50px;
+
 }
 
 .box {
