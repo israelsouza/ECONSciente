@@ -263,3 +263,10 @@
 #carrossel button:hover {
     cursor: pointer;
 }
+
+@media(max-width: 780px){
+    #carrossel{
+        display: none
+    }
+
+}

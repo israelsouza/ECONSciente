@@ -5,6 +5,7 @@ main{
 .row{
     gap: 50px;
     margin-top: 50px;
+    padding: 0 4%;
 }
 
 .col{
@@ -29,5 +30,22 @@ main{
 .conteudo-pesquisa-content li {
     font-size: 23px;
     font-weight: bold;
+}
 
+@media (max-width: 1399px) {
+    .col{
+        min-width: 40%;
+    }
+}
+
+@media (max-width: 700px) {
+    body div.modal-body{
+        font-size: 100%;
+    }
+}
+
+@media (max-width: 420px) {
+    .col{
+        min-width: 100%;
+    }
 }
