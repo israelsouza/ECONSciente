@@ -22,13 +22,18 @@ article.container {
 }
 
 .container h2 {
-    font-size: 30px;
+    font-size: 26px;
     font-weight: bold;
     margin-top: 20px;
 }
 
-.container p,
-li {
+.container h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.container p, .container li {
     font-size: 23px;
     text-align: justify;
 }
@@ -37,8 +42,9 @@ li {
     margin: 10px 0;
 }
 
-.keywords {
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
+@media (max-width:680px) {
+    body main .container p,
+    body main .container li{
+        font-size: 100%;
+    }
 }
