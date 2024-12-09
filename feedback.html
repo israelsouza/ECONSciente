@@ -101,13 +101,13 @@
         <form>
             <div class="mb-3 px-3">
                 <label class="form-label">Nome completo</label>
-                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <input type="text" required class="form-control" id="nomeCompleto" aria-describedby="emailHelp">
             </div>
 
             <div class="mb-4 px-3">
                 <label class="form-label">E-mail</label>
-                <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" required>
-                <div id="emailHelp" class="form-text">Não vamos compartilhar o seu e-mail com ninguém.</div>
+                <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" required>
+                <div id="emailHelp" class="form-text">Não vamos compartilhar os seus dados pessoais com ninguém.</div>
             </div>
 
             <!-- data de nascimento -->
@@ -144,12 +144,12 @@
 
             <div class="mb-3 px-3">
                 <label for="customRange2" class="form-label">De 0 a 5, qual sua satisfação com o site?</label>
-                <input type="range" class="form-range" min="0" max="5" id="notaSatisfacao" required>
+                <input value="0" type="range" class="form-range" min="0" max="5" id="notaSatisfacao" required>
             </div>
 
             <div class="mb-3 px-3">
                 <label for="customRange2" class="form-label">De 0 a 5, qual a chance de recomendar pra um amigo?</label>
-                <input type="range" class="form-range" min="0" max="5" id="notaRecomendacao" required>
+                <input value="0" type="range" class="form-range" min="0" max="5" id="notaRecomendacao" required>
             </div>
 
             <!-- Feedback -->
@@ -221,5 +221,9 @@
         crossorigin="anonymous"></script>
     <script src="./assets/js/exibirMenu.js"></script>
 </body>
+<script src="./assets/js/form.js">
 
+    
+
+</script>
 </html>
