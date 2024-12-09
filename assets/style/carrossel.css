@@ -264,8 +264,14 @@
     cursor: pointer;
 }
 
+@media ( max-width: 1050px ) {
+    .flv{
+        padding-bottom: 170px;
+    }
+}
+
 @media(max-width: 780px){
-    #carrossel{
+    #carrossel, .carrossel-title{
         display: none
     }
 
